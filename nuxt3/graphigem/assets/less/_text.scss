@@ -1,0 +1,117 @@
+body {
+  .v-card-subtitle {
+    opacity: 0.96;
+  }
+  .text-h1 {
+    font-family: "Samson", sans-serif !important;
+    font-style: normal;
+    font-weight: 700 !important;
+  }
+  .text-h2 {
+    font-family: "Samson", sans-serif !important;
+    font-style: normal;
+    font-weight: 700 !important;
+    font-size: 2.5rem !important;
+    line-height: 3rem;
+
+    @media only screen and (max-width: 960px) {
+      font-size: 1.5rem !important;
+      line-height: 2rem;
+    }
+  }
+  .text-h3 {
+    font-family: "Samson", sans-serif !important;
+    font-style: normal;
+    font-weight: 500 !important;
+    font-size: 2rem !important;
+
+    @media only screen and (max-width: 960px) {
+      font-size: 1.5rem !important;
+      line-height: 2rem;
+    }
+  }
+  .text-h4 {
+    font-family: "Samson", sans-serif !important;
+    font-style: normal;
+    font-weight: 400 !important;
+    font-size: 2rem !important;
+
+    @media only screen and (max-width: 960px) {
+      font-size: 1.5rem !important;
+      line-height: 2rem;
+    }
+  }
+
+  h4.text-light {
+    font-family: "Samson", sans-serif !important;
+    font-style: normal;
+    font-weight: 300 !important;
+    font-size: 1.25rem !important;
+
+    @media only screen and (max-width: 960px) {
+      font-size: 1rem !important;
+      line-height: 1rem;
+    }
+  }
+
+  .text-subtitle {
+    font-family: "Readex Pro", sans-serif !important;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 1.15rem;
+    line-height: 2rem !important;
+    padding-top: 0;
+    padding-bottom: 0;
+
+    @media only screen and (max-width: 960px) {
+      padding: 0;
+    }
+  }
+
+  .v-card-title {
+    font-family: "Samson", sans-serif !important;
+    font-style: normal;
+    font-weight: 700;
+
+    @media only screen and (max-width: 960px) {
+      padding-left: 0;
+      padding-right: 0;
+    }
+  }
+
+  .v-card-subtitle {
+    font-family: "Readex Pro", sans-serif !important;
+    font-style: normal;
+    font-weight: 400;
+    white-space: pre-wrap !important;
+    font-size: 1.05rem;
+    line-height: 2rem !important;
+
+    @media only screen and (max-width: 960px) {
+      padding: 1rem 0;
+    }
+  }
+
+  .v-card-text {
+    font-family: "Readex Pro", sans-serif;
+    font-weight: 300;
+    font-size: 0.85rem;
+    line-height: 1.5rem !important;
+
+    @media only screen and (max-width: 960px) {
+      padding: 0;
+    }
+  }
+
+  .v-btn__content {
+    font-family: "Readex Pro", sans-serif;
+    font-weight: 500;
+    font-size: 0.75rem;
+  }
+
+  .text-center-sm-and-down {
+    @media only screen and (max-width: 960px) {
+      text-align: center;
+    }
+  }
+}

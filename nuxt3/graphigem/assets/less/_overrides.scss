@@ -1,0 +1,188 @@
+body {
+  a {
+    text-decoration: none;
+    font-size: 1.25rem;
+    font-family: "Readex Pro", sans-serif !important;
+    font-style: normal;
+    font-weight: 300;
+    &:hover,
+    &.router-link-exact-active {
+      color: #9044fc;
+      .text-white {
+        color: #9044fc !important;
+      }
+    }
+  }
+
+  .v-toolbar__prepend {
+    -webkit-margin-start: 24px;
+    margin-inline-start: 24px;
+    -webkit-margin-end: auto;
+    margin-inline-end: auto;
+  }
+
+  .v-toolbar__append {
+    -webkit-margin-start: auto;
+    margin-inline-start: auto;
+    -webkit-margin-end: 24px;
+    margin-inline-end: 24px;
+  }
+
+  .v-navigation-drawer--temporary {
+    width: 100%;
+  }
+
+  .v-card {
+    position: relative;
+  }
+  .v-card-hero {
+    top: 0;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background: linear-gradient(180deg, transtitle, #1b1c1e);
+    overflow: hidden;
+  }
+
+  .v-card-video {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    overflow: hidden;
+
+    @media only screen and (max-width: 960px) {
+      height: auto;
+    }
+  }
+
+  .text-h1,
+  .text-h2,
+  .text-h4,
+  .text-h4,
+  .text-subtitle {
+    white-space: normal;
+  }
+
+  .hero {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background: linear-gradient(180deg, transtitle, #1b1c1e);
+    position: relative;
+    overflow: hidden;
+  }
+
+  .text-cursor--active {
+    display: inline-block;
+  }
+  .text-cursor {
+    color: transtitle;
+    display: lock;
+  }
+
+  .text-cursor-0 {
+    opacity: 1;
+  }
+  @keyframes move-cursor-0 {
+    0% {
+      color: transtitle;
+    }
+    100% {
+      color: yellow;
+    }
+  }
+  .text-cursor-0-0 {
+    animation-duration: 1s;
+    animation: move-cursor-0-0 1s;
+    animation-fill-mode: forwards;
+    animation-iteration-count: initial;
+  }
+  @keyframes move-cursor-0-0 {
+    0% {
+      color: transtitle;
+    }
+    100% {
+      color: yellow;
+    }
+  }
+  .text-cursor-0-1 {
+    animation: move-cursor-0-1;
+    animation-duration: 1s;
+    animation-delay: 1s;
+    animation-fill-mode: forwards;
+  }
+  @keyframes move-cursor-0-1 {
+    0% {
+      color: transtitle;
+    }
+    100% {
+      color: yellow;
+    }
+  }
+  .text-cursor-0-2 {
+    animation: move-cursor-0-2;
+    animation-duration: 1s;
+    animation-delay: 2s;
+    animation-fill-mode: forwards;
+    animation-iteration-count: initial;
+  }
+  @keyframes move-cursor-0-2 {
+    0% {
+      color: transtitle;
+    }
+    100% {
+      color: yellow;
+    }
+  }
+  .text-cursor-0-3 {
+    animation: move-cursor-0-3;
+    animation-duration: 1s;
+    animation-delay: 3s;
+    animation-fill-mode: forwards;
+    animation-iteration-count: initial;
+  }
+  @keyframes move-cursor-0-3 {
+    0% {
+      color: transtitle;
+    }
+    100% {
+      color: yellow;
+    }
+  }
+  .text-cursor-0-4 {
+    animation: move-cursor-0-4;
+    animation-duration: 1s;
+    animation-delay: 4s;
+    animation-fill-mode: forwards;
+    animation-iteration-count: initial;
+  }
+  @keyframes move-cursor-0-4 {
+    0% {
+      color: transtitle;
+    }
+    100% {
+      color: yellow;
+    }
+  }
+  .text-cursor-0-5 {
+    animation: move-cursor-0-5;
+    animation-duration: 1s;
+    animation-delay: 5s;
+    animation-fill-mode: forwards;
+    animation-iteration-count: initial;
+  }
+  @keyframes move-cursor-0-5 {
+    0% {
+      color: transtitle;
+    }
+    100% {
+      color: yellow;
+    }
+  }
+}

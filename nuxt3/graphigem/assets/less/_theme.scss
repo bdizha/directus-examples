@@ -1,0 +1,134 @@
+body {
+  .v-footer {
+    @media only screen and (max-width: 960px) {
+      a {
+        margin: 12px 0;
+        display: block;
+      }
+    }
+  }
+  .v-card {
+    position: relative;
+    background-repeat: repeat;
+    background-position: center;
+    background-size: cover;
+  }
+  .v-theme--accent {
+    background-image: url("/gees/gees-001.png");
+  }
+  .v-theme--white {
+    background-image: url("/gees/gees-011.png");
+  }
+  .v-theme--purple {
+    background-image: url("/gees/gees-002.png");
+    background-color: #9242fc;
+  }
+  .v-theme--green {
+    background-image: url("/gees/gees-005.png");
+  }
+  .v-theme--pink {
+    background-image: url("/gees/gees-008.png");
+  }
+  .v-theme--yellow {
+    background-image: url("/gees/gees-012.png");
+  }
+
+  .dark-purple {
+    background-image: url("/gees/gees-003.png");
+    background-size: 300%;
+  }
+
+  .dark-green {
+    background-image: url("/gees/gees-006.png");
+    background-size: 300%;
+  }
+
+  .dark-pink {
+    background-image: url("/gees/gees-009.png");
+    background-size: 300%;
+  }
+
+  .dark-yellow {
+    background-image: url("/gees/gees-013.png");
+    background-size: 300%;
+  }
+
+  .p1 {
+    padding: 8px;
+  }
+
+  .p2 {
+    padding: 16px;
+
+    @media only screen and (max-width: 960px) {
+      padding-top: 16px;
+      padding-bottom: 16px;
+    }
+  }
+
+  .p3 {
+    padding: 24px;
+
+    @media only screen and (max-width: 960px) {
+      padding-top: 24px;
+      padding-bottom: 24px;
+    }
+  }
+
+  .p6 {
+    padding-top: 48px;
+    padding-bottom: 48px;
+
+    @media only screen and (max-width: 960px) {
+      padding-top: 24px;
+      padding-bottom: 24px;
+    }
+
+    @media only screen and (max-width: 600px) {
+      padding-left: 18px;
+      padding-right: 18px;
+    }
+  }
+
+  .p12 {
+    padding: 96px 24px;
+
+    @media only screen and (max-width: 960px) {
+      padding: 45px 24px;
+    }
+
+    @media only screen and (max-width: 600px) {
+      padding: 45px 18px;
+    }
+  }
+
+  .p24 {
+    padding: 192px 24px;
+
+    @media only screen and (max-width: 960px) {
+      padding-top: 60px;
+      padding-bottom: 60px;
+    }
+
+    @media only screen and (max-width: 600px) {
+      padding-bottom: 45px;
+      padding-right: 45px;
+    }
+  }
+
+  .text-purple {
+    color: #9044fc;
+  }
+
+  .text-pink {
+    color: #dd4bb2;
+  }
+
+  .text-green {
+    color: #56fdd6 !important;
+  }
+
+  .text-yellow {
+    color: #ffee6a;
+  }
+}
