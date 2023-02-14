@@ -12,6 +12,9 @@ body {
     background-repeat: repeat;
     background-position: center;
     background-size: cover;
+    .v-card-actions {
+      padding: 0.5rem 0;
+    }
   }
   .v-theme--accent {
     background-image: url("/gees/gees-001.png");
@@ -117,7 +120,7 @@ body {
   }
 
   .text-purple {
-    color: #9044fc;
+    color: #9044fc !important;
   }
 
   .text-pink {

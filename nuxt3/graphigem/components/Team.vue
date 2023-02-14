@@ -1,9 +1,9 @@
 <template>
- <v-card rounded="0" theme="accent" class="p12 dark-purple">
+  <v-card rounded="0" theme="accent" class="p12 dark-green">
     <v-row align="center" justify="center">
       <v-col lg="6" cols="12" class="text-center">
         <v-card-subtitle>
-          <h2 class="text-h2">Our team</h2>
+          <h2 class="text-h2"><span class="text-green">Our</span> team</h2>
         </v-card-subtitle>
       </v-col>
       <v-col lg="9" md="6" sm="12" cols="12">
@@ -22,7 +22,7 @@
             >
               <v-row align="center" justify="start">
                 <v-col cols="12">
-                  <v-card theme="theme" :class="`p2 dark-${value.theme}`">
+                  <v-card theme="accent" :class="`p2 dark-${value.theme}`">
                     <v-img height="100%" :src="value.src" />
                   </v-card>
                 </v-col>
@@ -30,7 +30,8 @@
                   <v-row dense align="center" justify="center">
                     <v-col cols="12">
                       <v-card-title v-html="value.title"></v-card-title>
-                      <v-card-subtitle :class="`text-${value.theme}`"
+                      <v-card-subtitle
+                        :class="`text-${value.theme}`"
                         v-html="value.subtitle"
                       ></v-card-subtitle>
                       <v-card-text v-html="value.text"></v-card-text>

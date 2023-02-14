@@ -46,7 +46,7 @@ const _sfc_main = {
       },
       {
         title: "Apply <span class='text-white'> it</span>",
-        subtitle: "<span class='text-green'>Discover</span> and highlight reasons for brand loyalty to your potential customers through the Graphigem's Gem Plan campaign strategy and never doubt the impact and effect of your campaigns again.",
+        subtitle: "<span class='text-green'>Discover</span> and highlight incentives for brand loyalty to your potential customers through the Graphigem's Gem Plan campaign strategy and never doubt the impact and effect of your campaigns again.",
         text: "",
         src: "/icons/icons-009.png",
         theme: "green"
@@ -368,7 +368,7 @@ const _sfc_main = {
                                                                 if (_push11) {
                                                                   _push11(ssrRenderComponent(_component_v_card, {
                                                                     theme: "theme",
-                                                                    class: "dark-purple p4"
+                                                                    class: "dark-purple p3"
                                                                   }, {
                                                                     default: withCtx((_11, _push12, _parent12, _scopeId11) => {
                                                                       if (_push12) {
@@ -391,7 +391,7 @@ const _sfc_main = {
                                                                   return [
                                                                     createVNode(_component_v_card, {
                                                                       theme: "theme",
-                                                                      class: "dark-purple p4"
+                                                                      class: "dark-purple p3"
                                                                     }, {
                                                                       default: withCtx(() => [
                                                                         createVNode(_component_v_img, {
@@ -412,7 +412,7 @@ const _sfc_main = {
                                                                 default: withCtx(() => [
                                                                   createVNode(_component_v_card, {
                                                                     theme: "theme",
-                                                                    class: "dark-purple p4"
+                                                                    class: "dark-purple p3"
                                                                   }, {
                                                                     default: withCtx(() => [
                                                                       createVNode(_component_v_img, {
@@ -441,7 +441,7 @@ const _sfc_main = {
                                                               default: withCtx(() => [
                                                                 createVNode(_component_v_card, {
                                                                   theme: "theme",
-                                                                  class: "dark-purple p4"
+                                                                  class: "dark-purple p3"
                                                                 }, {
                                                                   default: withCtx(() => [
                                                                     createVNode(_component_v_img, {
@@ -506,7 +506,7 @@ const _sfc_main = {
                                                             default: withCtx(() => [
                                                               createVNode(_component_v_card, {
                                                                 theme: "theme",
-                                                                class: "dark-purple p4"
+                                                                class: "dark-purple p3"
                                                               }, {
                                                                 default: withCtx(() => [
                                                                   createVNode(_component_v_img, {
@@ -580,7 +580,7 @@ const _sfc_main = {
                                                           default: withCtx(() => [
                                                             createVNode(_component_v_card, {
                                                               theme: "theme",
-                                                              class: "dark-purple p4"
+                                                              class: "dark-purple p3"
                                                             }, {
                                                               default: withCtx(() => [
                                                                 createVNode(_component_v_img, {
@@ -662,7 +662,7 @@ const _sfc_main = {
                                                         default: withCtx(() => [
                                                           createVNode(_component_v_card, {
                                                             theme: "theme",
-                                                            class: "dark-purple p4"
+                                                            class: "dark-purple p3"
                                                           }, {
                                                             default: withCtx(() => [
                                                               createVNode(_component_v_img, {
@@ -1094,7 +1094,7 @@ const _sfc_main = {
                                                       default: withCtx(() => [
                                                         createVNode(_component_v_card, {
                                                           theme: "theme",
-                                                          class: "dark-purple p4"
+                                                          class: "dark-purple p3"
                                                         }, {
                                                           default: withCtx(() => [
                                                             createVNode(_component_v_img, {
@@ -1254,7 +1254,7 @@ const _sfc_main = {
                                                     default: withCtx(() => [
                                                       createVNode(_component_v_card, {
                                                         theme: "theme",
-                                                        class: "dark-purple p4"
+                                                        class: "dark-purple p3"
                                                       }, {
                                                         default: withCtx(() => [
                                                           createVNode(_component_v_img, {
@@ -1422,7 +1422,7 @@ const _sfc_main = {
                                                   default: withCtx(() => [
                                                     createVNode(_component_v_card, {
                                                       theme: "theme",
-                                                      class: "dark-purple p4"
+                                                      class: "dark-purple p3"
                                                     }, {
                                                       default: withCtx(() => [
                                                         createVNode(_component_v_img, {
@@ -8765,7 +8765,7 @@ const _sfc_main = {
                                                 default: withCtx(() => [
                                                   createVNode(_component_v_card, {
                                                     theme: "theme",
-                                                    class: "dark-purple p4"
+                                                    class: "dark-purple p3"
                                                   }, {
                                                     default: withCtx(() => [
                                                       createVNode(_component_v_img, {

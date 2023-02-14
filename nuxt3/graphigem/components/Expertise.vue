@@ -106,7 +106,7 @@
                     <v-col cols="3">
                       <v-img height="100%" :src="industry.src" />
                     </v-col>
-                    <v-col lg="6" xl="6" cols="6">
+                    <v-col lg="6" cols="6">
                       <v-card-title :class="`text-${industry.theme}`">
                         <h4 class="text-h4">
                           {{ industry.line3 }}

@@ -30,7 +30,7 @@
               <v-col lg="6" cols="12">
                 <v-row align="center" justify="start">
                   <v-col cols="12">
-                    <v-card theme="theme" class="dark-purple p4">
+                    <v-card theme="theme" class="dark-purple p3">
                       <v-img width="100%" src="/icons/icons-011.png" />
                     </v-card>
                   </v-col>

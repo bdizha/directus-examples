@@ -1,21 +1,16 @@
 <template>
- <v-card rounded="0" theme="accent" class="p12 dark-purple">
+  <v-card rounded="0" theme="theme" class="p12 dark-yellow">
     <v-row align="center" justify="center">
       <v-col lg="6" cols="12" class="text-center">
         <v-card-subtitle>
-          <h2 class="text-h2">Our values</h2>
+          <h2 class="text-h2"><span class="text-yellow">Our</span> values</h2>
         </v-card-subtitle>
       </v-col>
       <v-col lg="9" md="6" sm="12" cols="12">
         <v-row align="top" justify="end">
-          <v-col
-            lg="6"
-            cols="12"
-            v-for="(value, index) in values"
-            :key="index"
-          >
+          <v-col lg="6" cols="12" v-for="(value, index) in values" :key="index">
             <v-card
-              theme="theme"
+              theme="accent"
               :class="`p2 dark-${value.theme}`"
               min-height="75"
             >
@@ -29,7 +24,7 @@
                       <v-card-title>
                         <h4 class="text-light" v-html="value.title"></h4>
                       </v-card-title>
-                        <v-card-text v-html="value.text"></v-card-text>
+                      <v-card-text v-html="value.text"></v-card-text>
                     </v-col>
                   </v-row>
                 </v-col>

@@ -1,7 +1,7 @@
 <template>
   <v-card rounded="0" theme="yellow" class="p12">
     <v-row align="center" justify="center">
-      <v-col lg="9" md="6" sm="12" cols="12">
+      <v-col v-if="!isSubmitted" lg="9" md="6" sm="12" cols="12">
         <v-form validate-on="submit" @submit.prevent="submit">
           <v-row justify="center">
             <v-col cols="12">
@@ -66,12 +66,16 @@
           </v-row>
         </v-form>
       </v-col>
+      <v-col v-if="isSubmitted" cols="12">
+        <div class="text-h2">Launch your campaign with us.</div>
+      </v-col>
     </v-row>
   </v-card>
 </template>
 <script>
 export default {
   data: () => ({
+    isSubmitted: false,
     valid: true,
     form: {
       firstName: {
