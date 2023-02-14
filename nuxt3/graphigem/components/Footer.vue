@@ -3,7 +3,7 @@
     <v-card theme="accent" class="p3" rounded="0" width="100%">
       <v-row justify="center">
         <v-col cols="auto">
-          <v-img width="102" height="36" src="/logos/icon-text-010.png" />
+          <Image width="102" height="36" src="/logos/icon-text-010.png" />
         </v-col>
         <v-spacer class="hidden-md-and-down"></v-spacer>
         <v-col md="auto" cols="12">

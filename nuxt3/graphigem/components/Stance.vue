@@ -1,5 +1,5 @@
 <template>
-  <v-card theme="theme" class="p12 dark-green">
+  <v-card rounded="0" theme="theme" class="p12 dark-green">
     <v-row align="center" justify="center">
       <v-col lg="9" cols="12" class="text-center">
         <v-card-subtitle>
@@ -10,6 +10,10 @@
             <span class="text-yellow">Value.</span>
           </h2>
         </v-card-subtitle>
+        <v-card-text>
+          Brands that can't communicate a deligthing and an enriching story will
+          unsurprisingly fail to stay in in unleashing their missions.
+        </v-card-text>
       </v-col>
       <v-col cols="12">
         <v-row align="center" justify="center">
@@ -27,7 +31,7 @@
                   </v-col>
                   <v-col cols="6">
                     <v-card theme="accent" :class="`p2 dark-${value.theme}`">
-                      <v-img height="100%" :src="value.src" />
+                      <Image :width="600" :height="600" :src="value.src" />
                     </v-card>
                   </v-col>
                 </v-row>
@@ -36,7 +40,7 @@
           </v-col>
           <v-col lg="4" cols="12">
             <v-card theme="accent" :class="`p2 dark-green`" min-height="120">
-              <v-img height="600" src="/icons/icons-004.png" />
+              <Image height="600" src="/icons/icons-004.png" />
             </v-card>
           </v-col>
           <v-col lg="4" cols="12">
@@ -49,7 +53,7 @@
                 <v-row align="center" justify="center">
                   <v-col cols="6">
                     <v-card theme="accent" :class="`p2 dark-${value.theme}`">
-                      <v-img height="100%" :src="value.src" />
+                      <Image :width="300" :height="300" :src="value.src" />
                     </v-card>
                   </v-col>
                   <v-col cols="6">

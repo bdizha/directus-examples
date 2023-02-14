@@ -1,21 +1,50 @@
 import { defineNuxtConfig } from "nuxt/config";
 
 export default defineNuxtConfig({
-  modules: ["nuxt-directus"],
-  directus: {
-    token: process.env.DIRECTUS_STATIC_TOKEN,
-    url: process.env.DIRECTUS_URL,
-  },
-  css: [
-    "~/assets/less/app.scss",
-    "@mdi/font/css/materialdesignicons.min.css",
-  ],
+  modules: ["nuxt-directus", "@nuxt/image-edge"],
+  css: ["~/assets/less/app.scss", "@mdi/font/css/materialdesignicons.min.css"],
   build: {
     transpile: ["vuetify"],
   },
   vite: {
     define: {
       "process.env.DEBUG": true,
+    },
+  },
+  app: {
+    head: {
+      charset: "utf-16",
+      viewport:
+        "width=device-width, initial-scale=1, shrink-to-fit=no, viewport-fit=cover",
+      title: "Graphigem Digital",
+      meta: [
+        {
+          name: "description",
+          content:
+            "Helping great brands in capture the opportunity that a fast chaning world creates. We provide all the branding tools companies need to succeed today.",
+        },
+        {
+          name: "robots",
+          content:
+            "max-snippet:-1,max-image-preview:large,max-video-preview:-1",
+        },
+        {
+          name: "og:url",
+          content: "https://graphige.com",
+        },
+        {
+          name: "og:site_name",
+          content: "Graphigem Digital",
+        },
+        {
+          name: "og:type",
+          content: "website",
+        },
+      ],
+      link: [
+        { rel: "icon", href: "/logos/icon-003.png" },
+        { rel: "icon", sizes: "16x16", href: "/logos/icon-003.png" },
+      ],
     },
   },
 });

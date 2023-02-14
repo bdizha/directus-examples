@@ -16,7 +16,7 @@
             >
               <v-row align="center" justify="start">
                 <v-col sm="4" cols="4">
-                  <v-img height="100%" :src="value.src" />
+                  <Image :width="600" :height="600" :src="value.src" />
                 </v-col>
                 <v-col sm="12" md="12" lg="8" cols="12">
                   <v-row align="center" justify="center">

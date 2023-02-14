@@ -20,11 +20,6 @@
                   dynamic market environment in totally unpredictable ways.
                 </v-card-text>
                 <v-card-text>
-                  Brands that can't communicate a deligthing and an enriching
-                  story will unsurprisingly fail to stay in in unleashing their
-                  missions.
-                </v-card-text>
-                <v-card-text>
                   The ones, that do, will thrive. Below is a list of the
                   industries that we currently serve with the support of media
                   and veteran creatives in our digital arsenal, and it's only in
@@ -54,23 +49,23 @@
                 <v-col cols="12">
                   <v-row align="center" justify="start">
                     <v-col cols="3">
-                      <v-img height="100%" :src="industry.src" />
+                       <Image :width="300" :src="industry.src" />
                     </v-col>
                     <v-col cols="3">
-                      <v-img height="100%" :src="industry.src" />
+                       <Image :width="300" :src="industry.src" />
                     </v-col>
                     <v-col cols="3">
-                      <v-img height="100%" :src="industry.src" />
+                       <Image :width="300" :src="industry.src" />
                     </v-col>
                     <v-col cols="3">
-                      <v-img height="100%" :src="industry.src" />
+                       <Image :width="300" :src="industry.src" />
                     </v-col>
                   </v-row>
                 </v-col>
                 <v-col cols="12">
                   <v-row align="center" justify="start">
                     <v-col cols="3">
-                      <v-img height="100%" :src="industry.src" />
+                       <Image :width="300" :src="industry.src" />
                     </v-col>
                     <v-col lg="9" md="6" sm="9" cols="9">
                       <v-card-title :class="`text-${industry.theme}`">
@@ -84,7 +79,7 @@
                 <v-col cols="12">
                   <v-row align="center" justify="start">
                     <v-col cols="3">
-                      <v-img height="100%" :src="industry.src" />
+                       <Image :width="300" :src="industry.src" />
                     </v-col>
                     <v-col cols="3">
                       <v-card-title :class="`text-${industry.theme}`">
@@ -94,17 +89,17 @@
                       </v-card-title>
                     </v-col>
                     <v-col cols="3">
-                      <v-img height="100%" :src="industry.src" />
+                       <Image :width="300" :src="industry.src" />
                     </v-col>
                     <v-col cols="3">
-                      <v-img height="100%" :src="industry.src" />
+                       <Image :width="300" :src="industry.src" />
                     </v-col>
                   </v-row>
                 </v-col>
                 <v-col cols="12">
                   <v-row align="center" justify="start">
                     <v-col cols="3">
-                      <v-img height="100%" :src="industry.src" />
+                       <Image :width="300" :src="industry.src" />
                     </v-col>
                     <v-col lg="6" cols="6">
                       <v-card-title :class="`text-${industry.theme}`">
@@ -114,23 +109,23 @@
                       </v-card-title>
                     </v-col>
                     <v-col cols="3">
-                      <v-img height="100%" :src="industry.src" />
+                       <Image :width="300" :src="industry.src" />
                     </v-col>
                   </v-row>
                 </v-col>
                 <v-col cols="12">
                   <v-row align="center" justify="start">
                     <v-col cols="3">
-                      <v-img height="100%" :src="industry.src" />
+                      <Image :width="300" :height="300" :src="industry.src" />
                     </v-col>
                     <v-col cols="3">
-                      <v-img height="100%" :src="industry.src" />
+                       <Image :width="300" :src="industry.src" />
                     </v-col>
                     <v-col cols="3">
-                      <v-img height="100%" :src="industry.src" />
+                       <Image :width="300" :src="industry.src" />
                     </v-col>
                     <v-col cols="3">
-                      <v-img height="100%" :src="industry.src" />
+                       <Image :width="300" :src="industry.src" />
                     </v-col>
                   </v-row>
                 </v-col>

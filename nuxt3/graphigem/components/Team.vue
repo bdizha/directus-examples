@@ -23,7 +23,7 @@
               <v-row align="center" justify="start">
                 <v-col cols="12">
                   <v-card theme="accent" :class="`p2 dark-${value.theme}`">
-                    <v-img height="100%" :src="value.src" />
+                    <Image :width="600" :height="600" :src="value.src" />
                   </v-card>
                 </v-col>
                 <v-col cols="12">

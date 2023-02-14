@@ -3,9 +3,9 @@
     <v-row align="center" justify="center">
       <v-col lg="9" md="6" sm="12" cols="12">
         <v-row align="center" justify="start">
-          <v-col v-if="false" lg="6" cols="12">
+          <v-col lg="6" cols="12">
             <v-card theme="theme" class="dark-green p3">
-              <v-img width="100%" src="/gems/globe.svg" />
+              <Image width="100%" src="/gems/globe-001.png" />
             </v-card>
           </v-col>
           <v-col lg="6" cols="12">
@@ -45,8 +45,8 @@
               min-height="450"
             >
               <v-row align="start" justify="start">
-                <v-col lg="12" cols="12">
-                  <v-img height="100%" :src="service.src" />
+                <v-col lg="6" cols="6">
+                  <Image :width="300" :height="300" :src="service.src" />
                 </v-col>
                 <v-col cols="12">
                   <v-card-title v-html="service.title"></v-card-title>

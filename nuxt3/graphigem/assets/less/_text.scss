@@ -11,12 +11,12 @@ body {
     font-family: "Samson", sans-serif !important;
     font-style: normal;
     font-weight: 700 !important;
-    font-size: 2.5rem !important;
-    line-height: 3rem;
+    font-size: 3rem !important;
+    line-height: 3.25rem;
 
     @media only screen and (max-width: 960px) {
-      font-size: 1.5rem !important;
-      line-height: 2rem;
+      font-size: 2rem !important;
+      line-height: 2.15rem;
     }
   }
   .text-h3 {
@@ -45,7 +45,7 @@ body {
   h4.text-light {
     font-family: "Samson", sans-serif !important;
     font-style: normal;
-    font-weight: 300 !important;
+    font-weight: 400 !important;
     font-size: 1.25rem !important;
 
     @media only screen and (max-width: 960px) {
@@ -82,13 +82,13 @@ body {
   }
 
   .v-card-subtitle {
-    font-family: "Samson", sans-serif !important;
+    font-family: "Readex Pro", sans-serif !important;
     font-style: normal;
     font-weight: 400 !important;
-    font-size: 1rem;
-    line-height: 1.5rem !important;
+    font-size: 1.15rem;
+    line-height: 2rem !important;
     white-space: pre-wrap !important;
-    padding: 1rem 0;
+    padding: 1.5rem 0;
 
     @media only screen and (max-width: 960px) {
       padding: 1rem 0;
@@ -98,12 +98,13 @@ body {
   .v-card-text {
     font-family: "Readex Pro", sans-serif;
     font-weight: 300;
-    font-size: 0.85rem;
+    font-size: 1rem;
     line-height: 1.5rem !important;
     padding: 1rem 0;
 
     @media only screen and (max-width: 960px) {
-      padding: 0;
+      padding-left: 0;
+      padding-right: 0;
     }
   }
 

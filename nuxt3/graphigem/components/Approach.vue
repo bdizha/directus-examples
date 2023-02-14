@@ -1,5 +1,5 @@
 <template>
-  <v-card theme="accent" class="p12 dark-purple">
+  <v-card rounded="0" theme="accent" class="p12 dark-purple">
     <v-row align="center" justify="center" minHeight="600">
       <v-col cols="9">
         <v-row align="center" justify="end" minHeight="600">
@@ -38,7 +38,7 @@
             <v-row align="center" justify="start">
               <v-col cols="12">
                 <v-card theme="theme" class="dark-purple p3">
-                  <v-img width="100%" src="/icons/icons-005.png" />
+                  <Image :width="600" :height="600" src="/icons/icons-005.png" />
                 </v-card>
               </v-col>
             </v-row>
@@ -59,7 +59,7 @@
             <v-card theme="theme" :class="`p3 dark-${step.theme}`">
               <v-row align="center" justify="start">
                 <v-col lg="3" cols="6">
-                  <v-img :src="step.src" />
+                  <Image :src="step.src" />
                 </v-col>
                 <v-col lg="9" cols="12">
                   <v-card-title

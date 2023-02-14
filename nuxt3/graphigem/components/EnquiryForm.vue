@@ -1,7 +1,7 @@
 <template>
   <v-card rounded="0" theme="yellow" class="p12">
     <v-row align="center" justify="center">
-      <v-col v-if="!isSubmitted" lg="9" md="6" sm="12" cols="12">
+      <v-col lg="8" cols="12">
         <v-form validate-on="submit" @submit.prevent="submit">
           <v-row justify="center">
             <v-col cols="12">
@@ -66,8 +66,13 @@
           </v-row>
         </v-form>
       </v-col>
-      <v-col v-if="isSubmitted" cols="12">
-        <div class="text-h2">Launch your campaign with us.</div>
+      <v-col v-if="isSubmitted" lg="6" cols="12">
+        <v-card theme="theme" :class="`p2 dark`">
+          <v-card-subtitle>
+            Thank you for your enquiry. It has been sent to us and will be touch
+            soonest.
+          </v-card-subtitle>
+        </v-card>
       </v-col>
     </v-row>
   </v-card>
@@ -116,7 +121,7 @@ export default {
         rules: [
           (v) => !!v || "Message is required",
           (v) =>
-            (v && v.length <= 30) || "Message must be less than 30 characters",
+            (v && v.length <= 500) || "Message must be less than 30 characters",
         ],
       },
     },
@@ -126,6 +131,14 @@ export default {
     async submit(event) {
       const results = await event;
       console.log("submitted form", JSON.stringify(results, null, 2));
+
+      setTimeout(() => {
+        this.isSubmitted = true;
+
+        setTimeout(() => {
+          this.isSubmitted = false;
+        }, 6000);
+      }, 3000);
     },
     async checkApi(userName) {
       return new Promise((resolve) => {

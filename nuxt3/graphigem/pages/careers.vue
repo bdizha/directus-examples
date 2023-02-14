@@ -1,7 +1,7 @@
 <template>
   <v-row justify="center" no-gutters>
     <v-col cols="12">
-      <v-card theme="accent" class="p12 dark-purple">
+      <v-card rounded="0" theme="accent" class="p12 dark-purple">
         <v-row align="center" justify="center" minHeight="600">
           <v-col lg="9" md="6" sm="12" cols="12">
             <v-row align="center" justify="start" minHeight="600">
@@ -31,7 +31,7 @@
                 <v-row align="center" justify="start">
                   <v-col cols="12">
                     <v-card theme="theme" class="dark-purple p3">
-                      <v-img width="100%" src="/icons/icons-011.png" />
+                      <Image width="100%" src="/icons/icons-011.png" />
                     </v-card>
                   </v-col>
                 </v-row>
@@ -55,7 +55,7 @@
                         theme="theme"
                         :class="`px-2 py-2 dark-${step.theme}`"
                       >
-                        <v-img :src="step.src" />
+                        <Image :src="step.src" />
                       </v-card>
                     </v-col>
                     <v-col lg="6" cols="12">
@@ -97,7 +97,7 @@
                     <v-card theme="accent" class="p12 text-center dark-purple">
                       <v-row align="center" justify="center">
                         <v-col lg="6" cols="12">
-                          <v-img height="100%" :src="take.src" />
+                          <Image :width="600" :height="600" :src="take.src" />
                         </v-col>
                         <v-col cols="12">
                           <v-row align="center" justify="center">
@@ -130,7 +130,7 @@
           <v-col sm="12" md="12" lg="4" xl="4" class="text-center">
             <v-row align="center" justify="center">
               <v-col lg="6" xl="6" class="p6 text-left">
-                <v-img height="100" src="/logos/icon-004.png" />
+                <Image height="100" src="/logos/icon-004.png" />
               </v-col>
               <v-col cols="12" class="text-center">
                 <v-card-subtitle>

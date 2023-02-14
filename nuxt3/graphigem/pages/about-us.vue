@@ -1,7 +1,7 @@
 <template>
   <v-row justify="center" no-gutters>
     <v-col cols="12">
-      <v-card theme="theme" class="p6 dark-pink">
+      <v-card rounded="false" theme="theme" class="p6 dark-pink">
         <v-row align="center" justify="center">
           <v-col lg="6" xl="6" cols="12">
             <v-row align="center" justify="end" minHeight="600">
@@ -34,7 +34,7 @@
           </v-col>
           <v-col lg="6" xl="6" cols="12">
             <v-card theme="theme" class="p3 dark-pink">
-              <v-img width="100%" src="/assets/assets-005.png" />
+              <Image width="100%" src="/assets/assets-005.png" />
             </v-card>
           </v-col>
         </v-row>
@@ -47,7 +47,7 @@
             <v-row align="center" justify="start" minHeight="600">
               <v-col lg="6" xl="6" cols="12">
                 <v-card theme="accent" class="dark-purple p3">
-                  <v-img width="100%" src="/gems/globe-003.png" />
+                  <Image width="100%" src="/gems/globe-003.png" />
                 </v-card>
               </v-col>
               <v-col lg="6" xl="6" cols="12">
@@ -103,7 +103,7 @@
                         theme="theme"
                         :class="`px-2 py-2 dark-${step.theme}`"
                       >
-                        <v-img :src="step.src" />
+                        <Image :src="step.src" />
                       </v-card>
                     </v-col>
                   </v-row>
