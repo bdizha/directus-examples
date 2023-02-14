@@ -16,7 +16,9 @@
                     <v-card-subtitle>
                       Graphigem Digital is on the lookout for talented, market
                       leading individuals, who thrive in agile and innovative
-                      environments.
+                      environments. Brands that can't communicate a deligthing
+                      and an enriching story will unsurprisingly fail to stay in
+                      in unleashing their missions.
                     </v-card-subtitle>
                   </v-col>
                   <v-col lg="12" cols="12">

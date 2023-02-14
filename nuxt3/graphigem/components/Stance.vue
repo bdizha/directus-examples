@@ -10,10 +10,6 @@
             <span class="text-yellow">Value.</span>
           </h2>
         </v-card-subtitle>
-        <v-card-text>
-          Brands that can't communicate a deligthing and an enriching story will
-          unsurprisingly fail to stay in in unleashing their missions.
-        </v-card-text>
       </v-col>
       <v-col cols="12">
         <v-row align="center" justify="center">
@@ -31,7 +27,7 @@
                   </v-col>
                   <v-col cols="6">
                     <v-card theme="accent" :class="`p2 dark-${value.theme}`">
-                      <Image :width="600" :height="600" :src="value.src" />
+                      <Image :width="150" :height="150" :src="value.src" />
                     </v-card>
                   </v-col>
                 </v-row>
@@ -53,7 +49,7 @@
                 <v-row align="center" justify="center">
                   <v-col cols="6">
                     <v-card theme="accent" :class="`p2 dark-${value.theme}`">
-                      <Image :width="300" :height="300" :src="value.src" />
+                      <Image :width="150" :height="150" :src="value.src" />
                     </v-card>
                   </v-col>
                   <v-col cols="6">

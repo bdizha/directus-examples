@@ -9,13 +9,13 @@
                 <span class="text-yellow">Our</span> productions
               </h2>
             </v-card-title>
-            <v-card-text>
+            <v-card-subtitle>
               If it doesn't sell, it isn't creative. Brands have to decide what
               image they want for their brand. Image means personality.
               Products, like people, have personalities, and they can make or
               break them in the marketplace. We are taking a stride toward
               beauty and easthetics.
-            </v-card-text>
+            </v-card-subtitle>
             <v-card-text>
               "You will never win fame and fortune unless you invent big ideas.
               It takes a big idea to attract the attention of consumers and get
@@ -50,13 +50,13 @@
                   :class="`dark-${project.theme}`"
                 >
                   <v-carousel show-arrows="false" cycle hide-delimiters>
-                    <div></div>
                     <v-carousel-item
                       v-for="item in project.items"
                       :key="item"
                       :value="item"
-                      :src="item.src"
-                    ></v-carousel-item>
+                    >
+                      <Image :src="item.src" />
+                    </v-carousel-item>
                   </v-carousel>
                 </v-card>
               </v-window-item>

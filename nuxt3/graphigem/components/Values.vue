@@ -42,13 +42,13 @@ const values = [
     src: "/icons/icons-008.png",
     theme: "purple",
     title: "<span class='text-purple'>Purposefully</span> driven",
-    text: "<span class='text-purple'>We</span> hold our work and each other to the highest of standards and believe that team work is dream work. We believe in sweating the small stuff and attention to detail is key.",
+    text: "<span class='text-purple'>We</span> hold our work and each other to the highest of standards and believe that team work is dream work. We believe in doing our level best in everything we do for our clients.",
   },
   {
     src: "/icons/icons-010.png",
     theme: "pink",
     title: "<span class='text-pink'>Relentlessly</span> caring",
-    text: "<span class='text-pink'>For</span> us, it's incredibly important that we work in a supportive and caring space. We value character over all else. We respect each other, are also compassionate and we deeply care about our work and colleagues.",
+    text: "<span class='text-pink'>For</span> us, it's incredibly important that we work in a supportive and caring space. We value character over all else. We respect each other enjoy working together with our colleagues.",
   },
   {
     src: "/icons/icons-009.png",

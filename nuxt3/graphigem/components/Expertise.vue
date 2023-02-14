@@ -11,14 +11,14 @@
           <v-col lg="6" cols="12">
             <v-row align="center" justify="center">
               <v-col cols="12">
-                <v-card-text>
+                <v-card-subtitle>
                   Envisioning a desirable future and accelerating change affords
                   futuristic brands a dynamic branding strategy and competive
                   edge on the marketplace. Telling branding stories and customer
                   journeys, when told correctly, have the possibilities that can
                   connect with culture and create community within a highly
                   dynamic market environment in totally unpredictable ways.
-                </v-card-text>
+                </v-card-subtitle>
                 <v-card-text>
                   The ones, that do, will thrive. Below is a list of the
                   industries that we currently serve with the support of media
