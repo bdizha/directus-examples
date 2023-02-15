@@ -21,7 +21,7 @@ export default defineNuxtConfig({
         {
           name: "description",
           content:
-            "Helping great brands in capture the opportunity that a fast chaning world creates. We provide all the branding tools companies need to succeed today.",
+            "Delight your customers. Build bold campaigns. Unleash brand loyalty. Incraese market share. Graphigem provides all the branding tools companies need to succeed today.",
         },
         {
           name: "robots",

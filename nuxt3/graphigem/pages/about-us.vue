@@ -12,11 +12,11 @@
                   </h2>
                 </v-card-title>
                 <v-card-subtitle
-                  >We believe that the future generations are going to live in
-                  the imagination. Those that can dream with the mutually
-                  inclusive goals, with deliberate actions, will thrive. Great
-                  brands often overcome failure, derison, and sheer hardship to
-                  reach their goals.
+                  >We believe that future generations are going to live in the
+                  imagination. Those that can dream with both mutually inclusive
+                  goals and deliberate actions will succeed today and thrive
+                  tomorrow. Great brands often overcome failure, derison, and
+                  sheer hardship to reach their goals.
                 </v-card-subtitle>
                 <v-card-text>
                   Behind each great product there's an equally great story and
@@ -60,10 +60,10 @@
                 <v-card-text
                   >In many cases, this will continue beyond this day. In some
                   way or other, they have all helped to stoke the engine of the
-                  fast growing economy in the world. We are doing this by
-                  taking a revolutionary approach, that understands the impact
-                  branding campaigns can bring to the growing customer demands
-                  and plan to maximize value for creative brands.
+                  fast growing economy in the world. We are doing this by taking
+                  a revolutionary approach, that understands the impact branding
+                  campaigns can bring to the growing customer demands and plan
+                  to maximize value for creative brands.
                 </v-card-text>
               </v-col>
               <v-col lg="6" xl="6" cols="12">

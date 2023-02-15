@@ -15,7 +15,7 @@
               </h2>
             </v-card-title>
             <v-card-subtitle
-              >Get to know and offer your customers tailored products that
+              >Get to know your customers enough and offer them tailored products that
               resonate with their distinct lifestyles and expectations. Switch
               on the lights and become the pilot of your brand's rocket flight
               to the skies.
