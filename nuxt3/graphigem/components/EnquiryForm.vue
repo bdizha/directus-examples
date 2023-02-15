@@ -55,11 +55,12 @@
             </v-col>
             <v-col md="3" cols="12">
               <v-btn
+                block
                 type="submit"
                 size="x-large"
                 color="secondary"
-                block
-                class="mt-2"
+                rounded="xl"
+                class="mt-2 px-5"
                 >Get in touch</v-btn
               >
             </v-col>

@@ -1,13 +1,22 @@
 <template>
   <v-footer padless class="text-center-sm-and-down">
-    <v-card theme="accent" class="p3" width="100%">
+    <v-card theme="accent" class="p12" width="100%">
       <v-row justify="center">
         <v-col cols="auto">
-          <Image width="102" height="36" src="/logos/icon-text-010.png" />
+          <v-row justify="center">
+            <v-col cols="12">
+              <Image width="102" height="36" src="/logos/icon-text-010.png" />
+            </v-col>
+          </v-row>
+        </v-col>
+        <v-col lg="1" cols="12" class="hidden-lg-and-up  text-center">
+          <v-card-text>
+            {{ `Delight your customer.` }}
+          </v-card-text>
         </v-col>
         <v-spacer class="hidden-md-and-down"></v-spacer>
         <v-col md="auto" cols="12">
-          <v-row justify="end" no-gutters="">
+          <v-row justify="end">
             <v-col md="auto" cols="12" v-for="link in links" :key="link">
               <NuxtLink :to="link.route">
                 <v-btn
@@ -23,7 +32,25 @@
           </v-row>
         </v-col>
         <v-col lg="12" cols="12" class="text-center">
-          <v-card-text>Graphigem Digital &copy; {{ currentYear }}</v-card-text>
+          <v-row justify="space-between">
+            <v-col lg="3" cols="12" class="hidden-sm-and-down text-left">
+              <v-card-text>
+                {{ `Delight your customer.` }}
+              </v-card-text>
+            </v-col>
+            <v-col lg="6" cols="12" class="text-center">
+              <v-card-text
+                >Graphigem Digital &copy; {{ currentYear }}</v-card-text
+              >
+            </v-col>
+            <v-col md="3" cols="12" class="text-right text-center-sm-and-down">
+              <NuxtLink to="/privacy">
+                <v-btn color="white" variant="text" class="mx-2" rounded="xl">
+                  Privacy
+                </v-btn>
+              </NuxtLink>
+            </v-col>
+          </v-row>
         </v-col>
       </v-row>
     </v-card>

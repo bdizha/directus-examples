@@ -61,6 +61,8 @@
                         :color="service.theme"
                         size="x-large"
                         variant="outlined"
+                        rounded="xl"
+                        class="px-5"
                         >{{ service.action }}</v-btn
                       >
                     </NuxtLink>
@@ -109,7 +111,7 @@ const services = [
     title: "<span class='text-purple'>Agent</span> Branding",
     subtitle:
       "<span class='text-pink'>Adopt</span> and train an AI powered campaign agent model.",
-    text: "Welcome a new world of automated blochain solutions. Imagine the special role that a branded virtual campaign can achieve for your brand beyond any limits.",
+    text: "Welcome a new world of automated blochain solutions. Imagine the special role that a branded virtual campaign can achieve for your brand's market share.",
     action: "Get started",
   },
 ];
