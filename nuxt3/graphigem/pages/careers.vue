@@ -13,8 +13,8 @@
                     </v-card-title>
                   </v-col>
                   <v-col lg="12" cols="12">
-                    <v-card-subtitle>
-                      Graphigem Digital is on the lookout for talented, market
+                    <v-card-subtitle
+                      >Graphigem Digital is on the lookout for talented, market
                       leading individuals, who thrive in agile and innovative
                       environments. We helps brands create value in the virtual
                       world.
@@ -135,13 +135,13 @@
           <v-col sm="12" md="12" lg="4" xl="4" class="text-center">
             <v-row align="center" justify="center">
               <v-col lg="6" xl="6" class="p6 text-left">
-                <Image height="100" src="/logos/icon-004.png" />
+                <Image height="300" src="/logos/icon-004.png" />
               </v-col>
               <v-col cols="12" class="text-center">
                 <v-card-subtitle>
-                  We are a world renowned talent agency for marketing, PR &
-                  communications, digital, creative, investor relations and web3
-                  specialists.
+                  Graphigem helps brands create value in the virtual world. We
+                  are a strategic and creative consultancy guiding businesses
+                  through digital branding, collectibles, blockchain and the Virtual World.
                 </v-card-subtitle>
               </v-col>
               <v-col cols="12">
