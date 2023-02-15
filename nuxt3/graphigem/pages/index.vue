@@ -1,7 +1,7 @@
 <template>
   <v-row justify="center" no-gutters>
     <v-col cols="12">
-      <v-card class="mx-auto text-center v-card-video">
+      <v-card class="mx-auto text-center v-card-video" rounded="0">
         <video autoplay muted loop>
           <source src="/videos/GG_Infinity_WithTitles.mp4" type="video/mp4" />
           Your browser does not support HTML video.

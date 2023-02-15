@@ -64,7 +64,7 @@ const values = [
     src: "/icons/icons-013.png",
     theme: "yellow",
     title: "<span class='text-yellow'>Deliberately</span> curious",
-    text: "<span class='text-yellow'>We</span> encourage everyone, no matter what team or role, to bring their ideas to the table. The outcome of an experiment or an idea does not matter, it is the learning from it that counts.",
+    text: "<span class='text-yellow'>We</span> encourage everyone, no matter what team or role, to bring their ideas to the table. The outcome of an experiment or an idea does not matter, It's the learning from it that counts.",
   },
 ];
 </script>

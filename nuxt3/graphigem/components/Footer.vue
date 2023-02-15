@@ -1,6 +1,6 @@
 <template>
   <v-footer padless class="text-center-sm-and-down">
-    <v-card theme="accent" class="p3" rounded="0" width="100%">
+    <v-card theme="accent" class="p3" width="100%">
       <v-row justify="center">
         <v-col cols="auto">
           <Image width="102" height="36" src="/logos/icon-text-010.png" />

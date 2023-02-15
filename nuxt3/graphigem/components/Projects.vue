@@ -9,12 +9,12 @@
                 <span class="text-yellow">Our</span> productions
               </h2>
             </v-card-title>
-            <v-card-subtitle>
-              If it doesn't sell, it isn't creative. Brands have to decide what
+            <v-card-subtitle
+              >If it doesn't sell, It'sn't creative. Brands have to decide what
               image they want for their brand. Image means personality.
               Products, like people, have personalities, and they can make or
-              break them in the marketplace. We are taking a stride toward
-              beauty and easthetics.
+              break them in the marketplace. We attend to the minute details of
+              your product campaign.
             </v-card-subtitle>
             <v-card-text>
               "You will never win fame and fortune unless you invent big ideas.

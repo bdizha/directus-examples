@@ -4,16 +4,15 @@
       <v-col lg="9" md="6" sm="12" cols="12">
         <v-row align="center" justify="start">
           <v-col lg="6" cols="12">
-            <v-card-title>
-              <h2 class="text-h2">
-                <span class="text-purple">Our</span> appreach
+            <v-card-title
+              ><h2 class="text-h2">
+                <span class="text-purple">Our</span> approach
               </h2>
             </v-card-title>
-            <v-card-subtitle>
-              If you ask us, what is it like to launch a successful campaign?
-              Our answer is simple: It is always a dream as it were. We delight
-              in working with upcoming brands to unleash their own wildest
-              dreams.
+            <v-card-subtitle
+              >If you were to ask us, what's it like to launch a successful
+              campaign? Our answer is simple: It's always a delight working with
+              upcoming brands making their dreams a reality.
             </v-card-subtitle>
             <v-card-text>
               <span class="text-purple">Catalyze</span> your brands' branding
@@ -79,7 +78,7 @@ const steps = [
   {
     title: "Build <span class='text-white'> it</span>",
     subtitle:
-      "<span class='text-yellow'>Launch</span> a bold campaign and shoot for the stars by capturing the imagination of your audience's culture and AI customer learning models.",
+      "<span class='text-yellow'>Launch</span> a bold campaign and shoot for the stars by capturing the imagination of your audience's and leveraging AI customer learning models.",
     text: "",
     src: "/icons/icons-007.png",
     theme: "yellow",

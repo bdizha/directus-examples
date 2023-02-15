@@ -16,15 +16,16 @@
                     <v-card-subtitle>
                       Graphigem Digital is on the lookout for talented, market
                       leading individuals, who thrive in agile and innovative
-                      environments. Brands that can't communicate a deligthing
-                      and an enriching story will unsurprisingly fail to stay in
-                      in unleashing their missions.
+                      environments. We helps brands create value in the virtual
+                      world.
                     </v-card-subtitle>
                   </v-col>
                   <v-col lg="12" cols="12">
                     <v-card-text>
                       Join us on our incredible journey as we grow the
-                      organisation and our client offering.
+                      organisation and our client offering. We are a strategic
+                      and creative consultancy guiding businesses through
+                      crypto, NFTs, blockchain and the Metaverse.
                     </v-card-text>
                   </v-col>
                 </v-row>
@@ -83,8 +84,10 @@
           <v-col lg="9" md="6" sm="12" cols="12">
             <v-row align="center" justify="center">
               <v-col cols="12">
-                <v-card-title>
-                  <h2 class="text-h2">Work alongside market leading talent.</h2>
+                <v-card-title
+                  ><h2 class="text-h2">
+                    Work alongside market leading talent.
+                  </h2>
                 </v-card-title>
               </v-col>
               <v-col cols="12">

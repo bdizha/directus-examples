@@ -22,9 +22,7 @@
             >
               <v-row align="center" justify="start">
                 <v-col cols="12">
-                  <v-card theme="accent" :class="`p2 dark-${value.theme}`">
-                    <Image :width="600" :height="600" :src="value.src" />
-                  </v-card>
+                  <Image :width="600" :height="600" :src="value.src" />
                 </v-col>
                 <v-col cols="12">
                   <v-row dense align="center" justify="center">
@@ -57,6 +55,13 @@ const players = [
   },
   {
     theme: "pink",
+    src: "/team/00638.png",
+    title: "3D Modeling",
+    subtitle: `Kagiso Silindane`,
+    text: "I am a diligent animator who is dedicated to introducing new and unique skills into the field of animation and art.",
+  },
+  {
+    theme: "yellow",
     src: "/team/00051.png",
     title: "Web3 Enthusiast",
     subtitle: `Batanayi Matuku`,
@@ -64,14 +69,14 @@ const players = [
   },
   {
     theme: "green",
-    src: "/team/00934.png",
+    src: "/team/00468.png",
     title: "2D artist",
     subtitle: `Sibusiso Nkosi`,
     text: "Everday we dream it, we'll make it the best we can. If you just think of the job, the credit will automatically follow.",
   },
   {
-    theme: "yellow",
-    src: "/team/00446.png",
+    theme: "pink",
+    src: "/team/00963.png",
     title: "3D Artist",
     subtitle: `Jason Grobler`,
     text: `All creative people want to do the unexpected and the crazy stuff too. I find myself happy with little things like drawing.`,

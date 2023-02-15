@@ -14,8 +14,8 @@
                 <span class="text-green">Our</span> services
               </h2>
             </v-card-title>
-            <v-card-subtitle>
-              Get to know and offer your customers tailored products that
+            <v-card-subtitle
+              >Get to know and offer your customers tailored products that
               resonate with their distinct lifestyles and expectations. Switch
               on the lights and become the pilot of your brand's rocket flight
               to the skies.

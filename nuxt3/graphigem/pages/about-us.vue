@@ -12,10 +12,11 @@
                   </h2>
                 </v-card-title>
                 <v-card-subtitle
-                  >It's a dream, as it were. Those that dream and effect the
-                  desired and mutual goals, with deliberate actions, will
-                  thrive. Great brands often overcome failure, derison, and
-                  sheer hardship to reach their goals.
+                  >We believe that the future generations are going to live in
+                  the imagination. Those that can dream with the mutually
+                  inclusive goals, with deliberate actions, will thrive. Great
+                  brands often overcome failure, derison, and sheer hardship to
+                  reach their goals.
                 </v-card-subtitle>
                 <v-card-text>
                   Behind each great product there's an equally great story and
@@ -43,11 +44,6 @@
           <v-col lg="9" md="6" sm="12" cols="12">
             <v-row align="center" justify="start" minHeight="600">
               <v-col lg="6" xl="6" cols="12">
-                <v-card theme="accent" class="dark-purple p3">
-                  <Image width="100%" src="/gems/globe-003.png" />
-                </v-card>
-              </v-col>
-              <v-col lg="6" xl="6" cols="12">
                 <v-card-title>
                   <h2 class="text-h2">
                     <span class="text-purple">Our</span> vision
@@ -69,6 +65,11 @@
                   branding campaigns can bring to the growing customer demands
                   and plan to maximize value for creative brands.
                 </v-card-text>
+              </v-col>
+              <v-col lg="6" xl="6" cols="12">
+                <v-card theme="accent" class="dark-purple p3">
+                  <Image width="100%" src="/gems/globe-003.png" />
+                </v-card>
               </v-col>
             </v-row>
           </v-col>
