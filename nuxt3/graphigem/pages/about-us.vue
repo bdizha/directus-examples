@@ -60,7 +60,7 @@
                 <v-card-text
                   >In many cases, this will continue beyond this day. In some
                   way or other, they have all helped to stoke the engine of the
-                  fast growing economy in the worlld. We are doing this by
+                  fast growing economy in the world. We are doing this by
                   taking a revolutionary approach, that understands the impact
                   branding campaigns can bring to the growing customer demands
                   and plan to maximize value for creative brands.
