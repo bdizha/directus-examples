@@ -85,20 +85,20 @@ body {
     font-family: "Readex Pro", sans-serif !important;
     font-style: normal;
     font-weight: 400 !important;
-    font-size: 1.15rem;
+    font-size: 1.2rem;
     line-height: 2rem !important;
     white-space: pre-wrap !important;
-    padding: 1.5rem 0;
+    padding: 1rem 0;
 
     @media only screen and (max-width: 960px) {
-      padding: 1rem 0;
+      padding: 0.5rem 0;
     }
   }
 
   .v-card-text {
     font-family: "Readex Pro", sans-serif;
     font-weight: 300;
-    font-size: 1rem;
+    font-size: 0.9rem;
     line-height: 1.5rem !important;
     padding: 1rem 0;
 

@@ -18,7 +18,11 @@
               <v-col sm="12" v-for="(value, index) in values.left" :key="index">
                 <v-row align="center" justify="center">
                   <v-col cols="6">
-                    <v-card theme="theme" :class="`p2 dark-${value.theme}`">
+                    <v-card
+                      theme="accent"
+                      min-height="240px"
+                      :class="`p2 dark-${value.theme}`"
+                    >
                       <v-card-title :class="`text-${value.theme}`">
                         {{ value.title }}
                       </v-card-title>
@@ -26,7 +30,11 @@
                     </v-card>
                   </v-col>
                   <v-col cols="6">
-                    <v-card theme="accent" :class="`p2 dark-${value.theme}`">
+                    <v-card
+                      theme="accent"
+                      min-height="240px"
+                      :class="`p2 dark-${value.theme}`"
+                    >
                       <Image :width="150" :height="150" :src="value.src" />
                     </v-card>
                   </v-col>
@@ -48,12 +56,20 @@
               >
                 <v-row align="center" justify="center">
                   <v-col cols="6">
-                    <v-card theme="accent" :class="`p2 dark-${value.theme}`">
+                    <v-card
+                      theme="accent"
+                      min-height="240px"
+                      :class="`p2 dark-${value.theme}`"
+                    >
                       <Image :width="150" :height="150" :src="value.src" />
                     </v-card>
                   </v-col>
                   <v-col cols="6">
-                    <v-card theme="accent" :class="`p2 dark-${value.theme}`">
+                    <v-card
+                      theme="accent"
+                      min-height="240px"
+                      :class="`p2 dark-${value.theme}`"
+                    >
                       <v-card-title :class="`text-${value.theme}`">
                         {{ value.title }}
                       </v-card-title>

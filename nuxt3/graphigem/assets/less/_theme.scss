@@ -15,6 +15,9 @@ body {
     .v-card-actions {
       padding: 0.5rem 0;
     }
+
+    backdrop-filter: none;
+    backdrop-filter: blur(30px);
   }
   .v-theme--accent {
     background-image: url("/gees/gees-001.png");
@@ -97,11 +100,11 @@ body {
     padding: 96px 24px;
 
     @media only screen and (max-width: 960px) {
-      padding: 45px 24px;
+      padding: 72px 24px;
     }
 
     @media only screen and (max-width: 600px) {
-      padding: 45px 18px;
+      padding: 60px 24px;
     }
   }
 
@@ -109,13 +112,11 @@ body {
     padding: 192px 24px;
 
     @media only screen and (max-width: 960px) {
-      padding-top: 60px;
-      padding-bottom: 60px;
+      padding: 96px 24px;
     }
 
     @media only screen and (max-width: 600px) {
-      padding-bottom: 45px;
-      padding-right: 45px;
+      padding: 72px 24px;
     }
   }
 

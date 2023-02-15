@@ -1,0 +1,11 @@
+body {
+  .v-card.rounded-0 {
+    @media only screen and (max-width: 960px) {
+      background-image: none !important;
+    }
+
+    @media only screen and (max-width: 600px) {
+      background-image: none !important;
+    }
+  }
+}

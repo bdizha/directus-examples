@@ -78,7 +78,7 @@
       </v-card>
     </v-col>
     <v-col cols="12">
-      <v-card theme="theme" class="p12 text-center dark-purple">
+      <v-card rounded="0" theme="theme" class="p12 text-center dark-purple">
         <v-row justify="center" no-gutters>
           <v-col lg="9" md="6" sm="12" cols="12">
             <v-row align="center" justify="center">
@@ -127,7 +127,7 @@
       <Values></Values>
     </v-col>
     <v-col cols="12">
-      <v-card theme="accent" class="p12 dark-purple">
+      <v-card rounded="0" theme="accent" class="p12 dark-purple">
         <v-row align="center" justify="center">
           <v-col sm="12" md="12" lg="4" xl="4" class="text-center">
             <v-row align="center" justify="center">

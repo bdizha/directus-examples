@@ -10,11 +10,11 @@
       <template v-slot:append>
         <v-app-bar-nav-icon
           color="accent"
-          class="hidden-md-and-up text-right"
+          class="hidden-lg-and-up text-right"
           @click="drawer = !drawer"
         >
         </v-app-bar-nav-icon>
-        <v-sheet class="hidden-sm-and-down text-right">
+        <v-sheet class="hidden-md-and-down text-right">
           <NuxtLink :to="link.route" v-for="link in links" :key="link">
             <v-btn
               color="white"
