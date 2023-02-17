@@ -5,7 +5,7 @@
         <v-col cols="auto">
           <v-row justify="center">
             <v-col cols="12">
-              <Image width="102" height="36" src="/logos/icon-text-010.png" />
+              <Image width="102" height="36" src="/logos/footer.png" />
             </v-col>
           </v-row>
         </v-col>
