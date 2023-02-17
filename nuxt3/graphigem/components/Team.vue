@@ -50,7 +50,7 @@ const players = [
     theme: "purple",
     src: "/team/01007.png",
     title: `Creative Art`,
-    subtitle: `Drijke Wessles`,
+    subtitle: `Drijke Wessels`,
     text: "Always and expanding my knowledge scope while spreading magic in the world through a futuristic lense of imagination.",
   },
   {

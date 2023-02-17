@@ -10,7 +10,7 @@
               </h2>
             </v-card-title>
             <v-card-subtitle
-              >If it doesn't sell, It'sn't creative. Brands have to decide what
+              >If it doesn't sell, it isn't creative. Brands have to decide what
               image they want for their brand. Image means personality.
               Products, like people, have personalities, and they can make or
               break them in the marketplace. We attend to the minute details of
