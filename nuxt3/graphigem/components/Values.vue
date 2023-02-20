@@ -43,7 +43,7 @@ const values = [
     src: "/gems/gems-011.png",
     theme: "purple",
     title: "<span class='text-purple'>Courage</span>",
-    text: "<span class='text-purple'>Build</span>, evaluate, repeat. We always seek ways to challenge the status quo as we routinely apply, evaluate and repeat at every turn of the clock. ",
+    text: "<span class='text-purple'>We</span> always seek ways to challenge the status quo as we routinely build, apply, evaluate and repeat at every turn of the clock. ",
   },
   {
     src: "/gems/gems-007.png",

@@ -9,64 +9,60 @@
                 <span class="text-yellow">Our</span> productions
               </h2>
             </v-card-title>
-            <v-card-subtitle
-              >If it doesn't sell, it isn't informative and creative enough to
+            <v-card-text
+              >If it doesntext it isn't informative and creative enough to
               the consumer in target. Attend to the minute details of your
               product details and formulate a story that sells.
-            </v-card-subtitle>
+            </v-card-text>
           </v-col>
           <v-col lg="12" cols="12">
             <v-row align="center" justify="center">
               <v-col cols="12">
-                <v-card theme="theme" rounded="xl">
-                  <v-tabs
-                    v-model="tab"
-                    color="deep-purple-accent-4"
-                    align-tabs="center"
-                    class="mb-6"
+                <v-tabs
+                  v-model="tab"
+                  color="deep-purple-accent-4"
+                  align-tabs="center"
+                  class="mb-6"
+                >
+                  <v-tab
+                    v-for="project in projects"
+                    :color="project.theme"
+                    :value="project"
+                    >{{ project.title }}</v-tab
                   >
-                    <v-tab
-                      v-for="project in projects"
-                      :color="project.theme"
-                      :value="project"
-                      >{{ project.title }}</v-tab
-                    >
-                  </v-tabs>
-                </v-card>
+                </v-tabs>
               </v-col>
               <v-col cols="12">
-                <v-card theme="theme" rounded="xl">
-                  <v-window v-model="tab">
-                    <v-window-item
-                      v-for="project in projects"
-                      :key="project"
-                      :value="project"
+                <v-window v-model="tab">
+                  <v-window-item
+                    v-for="project in projects"
+                    :key="project"
+                    :value="project"
+                  >
+                    <v-slide-group
+                      v-model="cast"
+                      selected-class="bg-success"
+                      show-arrows
                     >
-                      <v-slide-group
-                        v-model="cast"
-                        selected-class="bg-success"
-                        show-arrows
+                      <v-slide-group-item
+                        v-for="item in project.items"
+                        :key="item"
+                        v-slot="{ isSelected, toggle, selectedClass }"
                       >
-                        <v-slide-group-item
-                          v-for="item in project.items"
-                          :key="item"
-                          v-slot="{ isSelected, toggle, selectedClass }"
-                        >
-                          <div class="p2">
-                            <v-card
-                              theme="accent"
-                              width="450px"
-                              rounded="xl"
-                              :class="`p3 dark-${project.theme}`"
-                            >
-                              <Image width="600" height="600" :src="item.src" />
-                            </v-card>
-                          </div>
-                        </v-slide-group-item>
-                      </v-slide-group>
-                    </v-window-item>
-                  </v-window>
-                </v-card>
+                        <div class="p2">
+                          <v-card
+                            theme="accent"
+                            width="450px"
+                            rounded="xl"
+                            :class="`p3 dark-${project.theme}`"
+                          >
+                            <Image width="600" height="600" :src="item.src" />
+                          </v-card>
+                        </div>
+                      </v-slide-group-item>
+                    </v-slide-group>
+                  </v-window-item>
+                </v-window>
               </v-col>
             </v-row>
           </v-col>

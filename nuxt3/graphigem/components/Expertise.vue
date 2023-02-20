@@ -51,7 +51,7 @@
                     <v-col cols="3">
                       <Image :width="300" :src="industry.src"
                     /></v-col>
-                    <v-col lg="6" md="6" sm="6" cols="9">
+                    <v-col lg="6" cols="6">
                         <h4 :class="`text-h4 text-${industry.theme}`">
                           {{ industry.line1 }}
                         </h4>

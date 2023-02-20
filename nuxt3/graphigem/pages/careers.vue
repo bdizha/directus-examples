@@ -11,7 +11,7 @@
                     <span class="text-green">Join</span> our team
                   </h2>
                 </v-card-title>
-                <v-card-subtitle
+                <v-card-text
                   >Join our mostly creative team, needless to mention, coupled
                   with branding, blockchain and gaming experts that are also
                   part of our digital services packages that we offer our
@@ -20,7 +20,7 @@
                   strategic and creative consultancy guiding businesses through
                   virtual apparel, branded collections, blockchain and the
                   Metaverse.
-                </v-card-subtitle>
+                </v-card-text>
               </v-col>
               <v-col lg="6" cols="12">
                 <v-row align="center" justify="start">
@@ -81,7 +81,7 @@
             <v-row align="center" justify="start">
               <v-col cols="6">
                 <v-card-title
-                  ><h2 class="text-h2">Your schedule</h2>
+                  ><h2 class="text-h2"><span class="text-green">Your</span> schedule</h2>
                 </v-card-title>
                 <v-card-text
                   >Graphigem Digital is on the lookout for talented, recent

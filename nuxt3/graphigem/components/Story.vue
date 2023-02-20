@@ -2,7 +2,12 @@
   <v-card rounded="0" theme="theme" class="p6 dark-pink">
     <v-row align="center" justify="center">
       <v-col lg="6" xl="6" cols="12">
-        <v-row align="center" justify="end" minHeight="600">
+        <v-card theme="theme" rounded="xl" class="p3 dark-pink">
+          <Image width="100%" src="/assets/assets-005.png" />
+        </v-card>
+      </v-col>
+      <v-col lg="6" xl="6" cols="12">
+        <v-row align="center" justify="start" minHeight="600">
           <v-col lg="9" md="6" sm="12" cols="12">
             <v-card-title>
               <h2 class="text-h2"><span class="text-pink">Our</span> story</h2>
@@ -25,11 +30,6 @@
             </v-card-text>
           </v-col>
         </v-row>
-      </v-col>
-      <v-col lg="6" xl="6" cols="12">
-        <v-card theme="theme" rounded="xl" class="p3 dark-pink">
-          <Image width="100%" src="/assets/assets-005.png" />
-        </v-card>
       </v-col>
     </v-row>
   </v-card>

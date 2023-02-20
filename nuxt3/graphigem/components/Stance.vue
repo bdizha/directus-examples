@@ -29,7 +29,7 @@
                       <v-card-text v-html="value.text"></v-card-text>
                     </v-card>
                   </v-col>
-                  <v-col>
+                  <v-col cols="6">
                     <v-card
                       theme="accent"
                       min-height="240px"
@@ -55,7 +55,7 @@
                 :key="value.src"
               >
                 <v-row align="center" justify="center">
-                  <v-col>
+                  <v-col cols="6">
                     <v-card
                       theme="accent"
                       :class="`p3 dark-${value.theme}`"
