@@ -1,8 +1,8 @@
 <template>
   <v-card rounded="0" theme="yellow" class="p12">
     <v-row align="center" justify="center">
-      <v-col lg="8" cols="12">
-        <v-form validate-on="submit" @submit.prevent="submit">
+      <v-col lg="6" cols="12">
+        <v-form v-model="form" @submit.prevent="onSubmit">
           <v-row justify="center">
             <v-col cols="12">
               <div class="text-h2">Launch your campaign with us.</div>
@@ -14,40 +14,40 @@
             </v-col>
             <v-col lg="6" cols="12">
               <v-text-field
-                v-model="form.firstName.value"
-                :rules="form.firstName.rules"
+                v-model="fields.firstName.value"
+                :rules="fields.firstName.rules"
                 label="First Name"
                 required
               ></v-text-field>
             </v-col>
             <v-col lg="6" cols="12">
               <v-text-field
-                v-model="form.lastName.value"
-                :rules="form.lastName.rules"
+                v-model="fields.lastName.value"
+                :rules="fields.lastName.rules"
                 label="Last Name"
                 required
               ></v-text-field>
             </v-col>
             <v-col lg="6" cols="12">
               <v-text-field
-                v-model="form.company.value"
-                :rules="form.company.rules"
+                v-model="fields.company.value"
+                :rules="fields.company.rules"
                 label="Company"
                 required
               ></v-text-field>
             </v-col>
             <v-col lg="6" cols="12">
               <v-text-field
-                v-model="form.email.value"
-                :rules="form.email.rules"
+                v-model="fields.email.value"
+                :rules="fields.email.rules"
                 label="Email"
                 required
               ></v-text-field>
             </v-col>
             <v-col cols="12">
               <v-textarea
-                v-model="form.message.value"
-                :rules="form.message.rules"
+                v-model="fields.message.value"
+                :rules="fields.message.rules"
                 label="Message"
                 required
                 auto-grow
@@ -59,6 +59,7 @@
                 type="submit"
                 size="x-large"
                 color="secondary"
+                variant="elevated"
                 rounded="xl"
                 class="mt-2 px-5"
                 >Get in touch</v-btn
@@ -68,7 +69,7 @@
         </v-form>
       </v-col>
       <v-col v-if="isSubmitted" lg="6" cols="12">
-        <v-card theme="theme" :class="`p2 dark`">
+        <v-card theme="theme" rounded="xl" :class="`p2 dark`">
           <v-card-subtitle>
             Thank you for your enquiry. It has been sent to us and will be touch
             soonest.
@@ -83,7 +84,8 @@ export default {
   data: () => ({
     isSubmitted: false,
     valid: true,
-    form: {
+    form: false,
+    fields: {
       firstName: {
         value: "",
         rules: [
@@ -129,7 +131,9 @@ export default {
   }),
 
   methods: {
-    async submit(event) {
+    async onSubmit(event) {
+      if (!this.form) return;
+
       const results = await event;
       console.log("submitted form", JSON.stringify(results, null, 2));
 

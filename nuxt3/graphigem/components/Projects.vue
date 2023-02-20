@@ -1,66 +1,74 @@
 <template>
-  <v-card rounded="0" theme="theme" class="p12 dark-yellow">
+  <v-card rounded="0" theme="accent" class="p12">
     <v-row align="center" justify="center">
-      <v-col lg="9" md="6" sm="12" cols="12">
-        <v-row align="center" justify="start">
-          <v-col lg="6" cols="12">
+      <v-col lg="12" md="12" sm="12" cols="12">
+        <v-row align="center" justify="center">
+          <v-col lg="4" md="6" cols="12" class="text-center">
             <v-card-title>
               <h2 class="text-h2">
                 <span class="text-yellow">Our</span> productions
               </h2>
             </v-card-title>
             <v-card-subtitle
-              >If it doesn't sell, it isn't creative. Brands have to decide what
-              image they want for their brand. Image means personality.
-              Products, like people, have personalities, and they can make or
-              break them in the marketplace. We attend to the minute details of
-              your product campaign.
+              >If it doesn't sell, it isn't informative and creative enough to
+              the consumer in target. Attend to the minute details of your
+              product details and formulate a story that sells.
             </v-card-subtitle>
-            <v-card-text>
-              "You will never win fame and fortune unless you invent big ideas.
-              It takes a big idea to attract the attention of consumers and get
-              them to buy your product. Unless your advertising contains a big
-              idea, it will pass like a ship in the night" -
-              <b>David Ogilvy</b>
-            </v-card-text>
           </v-col>
-          <v-col lg="6" cols="12">
-            <v-tabs
-              v-model="tab"
-              color="deep-purple-accent-4"
-              align-tabs="center"
-              class="mb-6"
-            >
-              <v-tab
-                v-for="project in projects"
-                :color="project.theme"
-                :value="project"
-                >{{ project.title }}</v-tab
-              >
-            </v-tabs>
-            <v-window v-model="tab">
-              <v-window-item
-                v-for="project in projects"
-                :key="project"
-                :value="project"
-              >
-                <v-card
-                  rounded="0"
-                  theme="theme"
-                  :class="`dark-${project.theme}`"
-                >
-                  <v-carousel show-arrows="false" cycle hide-delimiters>
-                    <v-carousel-item
-                      v-for="item in project.items"
-                      :key="item"
-                      :value="item"
+          <v-col lg="12" cols="12">
+            <v-row align="center" justify="center">
+              <v-col cols="12">
+                <v-card theme="theme" rounded="xl">
+                  <v-tabs
+                    v-model="tab"
+                    color="deep-purple-accent-4"
+                    align-tabs="center"
+                    class="mb-6"
+                  >
+                    <v-tab
+                      v-for="project in projects"
+                      :color="project.theme"
+                      :value="project"
+                      >{{ project.title }}</v-tab
                     >
-                      <Image :src="item.src" />
-                    </v-carousel-item>
-                  </v-carousel>
+                  </v-tabs>
                 </v-card>
-              </v-window-item>
-            </v-window>
+              </v-col>
+              <v-col cols="12">
+                <v-card theme="theme" rounded="xl">
+                  <v-window v-model="tab">
+                    <v-window-item
+                      v-for="project in projects"
+                      :key="project"
+                      :value="project"
+                    >
+                      <v-slide-group
+                        v-model="cast"
+                        selected-class="bg-success"
+                        show-arrows
+                      >
+                        <v-slide-group-item
+                          v-for="item in project.items"
+                          :key="item"
+                          v-slot="{ isSelected, toggle, selectedClass }"
+                        >
+                          <div class="p2">
+                            <v-card
+                              theme="accent"
+                              width="450px"
+                              rounded="xl"
+                              :class="`p3 dark-${project.theme}`"
+                            >
+                              <Image width="600" height="600" :src="item.src" />
+                            </v-card>
+                          </div>
+                        </v-slide-group-item>
+                      </v-slide-group>
+                    </v-window-item>
+                  </v-window>
+                </v-card>
+              </v-col>
+            </v-row>
           </v-col>
         </v-row>
       </v-col>

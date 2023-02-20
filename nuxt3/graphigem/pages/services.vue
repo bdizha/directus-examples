@@ -9,6 +9,9 @@
     <v-col cols="12">
       <Projects></Projects>
     </v-col>
+    <v-col cols="12">
+      <Action></Action>
+    </v-col>
   </v-row>
 </template>
 <script setup></script>

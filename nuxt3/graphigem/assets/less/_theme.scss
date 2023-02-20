@@ -11,7 +11,7 @@ body {
     position: relative;
     background-repeat: repeat;
     background-position: center;
-    background-size: cover;
+    background-size: 300%;
     .v-card-actions {
       padding: 0.5rem 0;
     }
@@ -27,7 +27,6 @@ body {
   }
   .v-theme--purple {
     background-image: url("/gees/gees-002.png");
-    background-color: #9242fc;
   }
   .v-theme--green {
     background-image: url("/gees/gees-005.png");
@@ -59,12 +58,42 @@ body {
     background-size: 300%;
   }
 
+  .light-primary {
+    background-image: url("/gems/gems-001.png");
+    background-size: 100%;
+  }
+
+  .light-secondary {
+    background-image: url("/gems/gems-001.png");
+    background-size: 100%;
+  }
+
+  .light-purple {
+    background-image: url("/gems/gems-001.png");
+    background-size: 100%;
+  }
+
+  .light-pink {
+    background-image: url("/gems/gems-001.png");
+    background-size: 100%;
+  }
+
+  .light-green {
+    background-image: url("/gems/gems-001.png");
+    background-size: 100%;
+  }
+
+  .light-yellow {
+    background-image: url("/gems/gems-001.png");
+    background-size: 120px;
+  }
+
   .text-purple {
     color: #9044fc !important;
   }
 
   .text-pink {
-    color: #e91e63;
+    color: #de49b4;
   }
 
   .text-green {

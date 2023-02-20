@@ -1,5 +1,5 @@
 <template>
-  <v-card theme="accent" class="p12 dark-purple">
+  <v-card theme="accent" rounded="xl" class="p12 dark-purple">
     <v-row align="center" justify="center">
       <v-col  lg="6"  xl="6" cols="12" class="text-center">
         <v-card-subtitle>
@@ -11,7 +11,7 @@
           <v-col  lg="6"  xl="6" cols="12" v-for="(value, index) in values" :key="index">
             <v-card
               theme="theme"
-              :class="`p2 dark-${value.theme}`"
+              rounded="xl" :class="`p2 dark-${value.theme}`"
               min-height="75"
             >
               <v-row align="center" justify="start">

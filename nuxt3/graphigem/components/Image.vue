@@ -19,5 +19,5 @@ const _srcset = computed(() => {
 });
 </script>
 <template>
-  <v-img :src="$img(src, { height, quality: 70 })"></v-img>
+  <v-img style="border-radius: 16px;" :src="$img(src, { height, quality: 90 })"></v-img>
 </template>

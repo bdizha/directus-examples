@@ -2,8 +2,13 @@
   <v-card rounded="0" theme="accent" class="p12 dark-green">
     <v-row align="center" justify="center">
       <v-col lg="6" cols="12" class="text-center">
-        <v-card-subtitle>
+        <v-card-title>
           <h2 class="text-h2"><span class="text-green">Our</span> team</h2>
+        </v-card-title>
+        <v-card-subtitle>
+          An eclectic team of community-forward builders & dreamers with
+          experience ranging from pre-internet to early crypto. Creating the
+          future we want to see.
         </v-card-subtitle>
       </v-col>
       <v-col lg="9" md="6" sm="12" cols="12">
@@ -17,7 +22,7 @@
           >
             <v-card
               theme="theme"
-              :class="`p2 dark-${value.theme}`"
+              rounded="xl" :class="`p2 dark-${value.theme}`"
               min-height="75"
             >
               <v-row align="center" justify="start">

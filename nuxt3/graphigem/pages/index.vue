@@ -3,7 +3,7 @@
     <v-col cols="12">
       <v-card class="mx-auto text-center v-card-video" rounded="0">
         <video autoplay muted loop>
-          <source src="/videos/GG_Infinity_WithTitles.mp4" type="video/mp4" />
+          <source src="/videos/GD_Infinity_WithTitles.mp4" type="video/mp4" />
           Your browser does not support HTML video.
         </video>
       </v-card>
@@ -13,6 +13,9 @@
     </v-col>
     <v-col cols="12">
       <Projects></Projects>
+    </v-col>
+    <v-col cols="12">
+      <Action></Action>
     </v-col>
     <v-col cols="12">
       <Services></Services>

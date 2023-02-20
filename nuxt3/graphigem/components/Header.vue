@@ -19,7 +19,7 @@
             <v-btn
               color="white"
               :variant="link.variant"
-              class="mx-2"
+              class="mx-1"
               rounded="xl"
             >
               {{ link.title }}
@@ -40,7 +40,7 @@
                 <v-btn
                   color="white"
                   :variant="link.variant"
-                  class="mx-2"
+                  class="mx-1"
                   rounded="xl"
                 >
                   {{ link.title }}
