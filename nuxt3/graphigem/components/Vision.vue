@@ -1,6 +1,6 @@
 <template>
   <v-card rounded="0" theme="theme" class="p6 dark-purple">
-    <v-row align="center" justify="center">
+    <v-row align="center" justify="center" class="v-row-reversed-sm-and-down">
       <v-col lg="6" xl="6" cols="12">
         <v-row align="center" justify="end" minHeight="600">
           <v-col lg="9" md="6" sm="12" cols="12">

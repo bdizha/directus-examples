@@ -62,12 +62,13 @@ body {
     }
   }
 
-  .text-h1,
-  .text-h2,
-  .text-h4,
-  .text-h4,
-  .text-subtitle {
-    white-space: normal;
+  .v-slide-group {
+    // margin-left: -12px;
+    // margin-right: -12px;
+    .v-card {
+      // margin-left: 12px;
+      // margin-right: 12px;
+    }
   }
 
   .hero {
