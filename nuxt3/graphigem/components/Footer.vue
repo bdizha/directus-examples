@@ -7,9 +7,9 @@
             <v-col lg="auto" cols="12">
               <NuxtLink to="/">
                 <Image
-                  width="102"
-                  height="36"
-                  src="/logos/icon-text-010.png"
+                  :width="mobile ? 72 : 102"
+                  :height="mobile ? 72 : 36"
+                  :src="`/logos/${mobile ? 'icon' : 'icon-text-010'}.png`"
                   rounded="0px"
                 />
               </NuxtLink>
@@ -17,7 +17,7 @@
           </v-row>
         </v-col>
         <v-col lg="1" cols="12" class="hidden-lg-and-up text-center">
-          <v-card-subtitle> Delight your customer </v-card-subtitle>
+          <h4 class="text-light">Delight your customer</h4>
         </v-col>
         <v-spacer class="hidden-md-and-down"></v-spacer>
         <v-col class="hidden-md-and-down" md="auto" cols="12">
@@ -46,8 +46,9 @@
                 <v-col md="auto" cols="12" v-for="link in links" :key="link">
                   <NuxtLink :to="link.route">
                     <v-btn
-                      :color="link.theme"
-                      :variant="link.variant"
+                      size="x-large"
+                      color="white"
+                      variant="text"
                       class="mx-1"
                       rounded="xl"
                     >
@@ -81,27 +82,26 @@
     </v-card>
   </v-footer>
 </template>
-<script>
-export default {
-  data: () => ({
-    currentYear: new Date().getFullYear(),
-    links: [
-      { title: "Home", variant: "text", route: "/", theme: "purple" },
-      { title: "Services", variant: "text", route: "/services", theme: "pink" },
-      { title: "Careers", variant: "text", route: "/careers", theme: "green" },
-      {
-        title: "About Us",
-        variant: "text",
-        route: "/about-us",
-        theme: "yellow",
-      },
-      {
-        title: "Get in touch",
-        variant: "outlined",
-        route: "/#contact-us",
-        theme: "white",
-      },
-    ],
-  }),
-};
+<script setup>
+import { useDisplay } from "vuetify/lib/framework.mjs";
+
+const { mobile } = useDisplay();
+const currentYear = new Date().getFullYear();
+const links = [
+  { title: "Home", variant: "text", route: "/", theme: "purple" },
+  { title: "Services", variant: "text", route: "/services", theme: "pink" },
+  { title: "Careers", variant: "text", route: "/careers", theme: "green" },
+  {
+    title: "About Us",
+    variant: "text",
+    route: "/about-us",
+    theme: "yellow",
+  },
+  {
+    title: "Get in touch",
+    variant: "outlined",
+    route: "/#contact-us",
+    theme: "white",
+  },
+];
 </script>
