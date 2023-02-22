@@ -10,7 +10,7 @@
                   :width="mobile ? 72 : 102"
                   :height="mobile ? 72 : 36"
                   :src="`/logos/${mobile ? 'icon' : 'icon-text-010'}.png`"
-                  rounded="0px"
+                  rounded="0"
                 />
               </NuxtLink>
             </v-col>
