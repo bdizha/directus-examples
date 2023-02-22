@@ -22,7 +22,7 @@ body {
   .v-theme--accent {
     background-color: #030303;
     background-image: url("/assets/squares-001.png");
-    background-size: 300%;
+    background-size: contain;
   }
   .v-theme--white {
     background-image: url("/gees/gees-011.png");

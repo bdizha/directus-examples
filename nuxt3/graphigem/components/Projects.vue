@@ -334,11 +334,9 @@ export default {
     ],
   }),
   setup() {
-    const { mobile, lg } = useDisplay();
+    const { mobile } = useDisplay();
 
     onMounted(() => {
-      console.log(mobile.value, "mobile value"); // false
-      console.log(lg.value, "lg value"); // false
     });
 
     return { mobile };
