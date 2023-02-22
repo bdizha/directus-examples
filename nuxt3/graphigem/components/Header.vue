@@ -3,7 +3,12 @@
     <v-app-bar>
       <template v-slot:prepend align="start">
         <NuxtLink to="/">
-          <Image width="102" height="36" src="/logos/icon-text-010.png" rounded="0px" />
+          <Image
+            width="102"
+            height="36"
+            src="/logos/icon-text-016.png"
+            rounded="0"
+          />
         </NuxtLink>
       </template>
       <v-spacer></v-spacer>

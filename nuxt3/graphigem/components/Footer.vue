@@ -9,7 +9,7 @@
                 <Image
                   width="102"
                   height="36"
-                  src="/logos/icon-text-016.png"
+                  src="/logos/icon-text-010.png"
                   rounded="0px"
                 />
               </NuxtLink>
