@@ -79,7 +79,7 @@
         <v-row justify="center" no-gutters>
           <v-col lg="9" md="6" sm="12" cols="12">
             <v-row align="center" justify="start">
-              <v-col cols="6">
+              <v-col lg="6" cols="12">
                 <v-card-title
                   ><h2 class="text-h2">
                     <span class="text-green">Your</span> schedule
@@ -89,9 +89,7 @@
                   >Graphigem Digital is on the lookout for talented, recent
                   graduates, market leading individuals, who enjoy taking a
                   creative role in an unconventional digital agency set up. So
-                  to mention, we all work remotely. Anyone can suggest the time
-                  shifts that work best for them for better effects and we take
-                  it from there with reschuduling on our end.
+                  to mention, we all work remotely. 
                 </v-card-text>
               </v-col>
               <v-col cols="12">
@@ -134,11 +132,8 @@
   </v-row>
 </template>
 <script setup>
-const title = `Take your next career step`;
-const subtitle = `We support you with end to end recruitment. We attract, source and
-              assess candidates to meet your requirements, by leveraging our
-              community to tap into those harder to find roles to make sure you
-              have access, first.`;
+const title = `<span class="text-green">Flex</span> your career`;
+const subtitle = `Are you a graduate or junior artist looking for your first break in the CGI industry as a 3D artist? Graphigem Digital is looking for the right candidates to join our team, as well as having a great opportunity to develop his/her skills with a full-time mentoring program.`;
 
 const steps = [];
 const takes = [

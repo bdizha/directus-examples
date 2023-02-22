@@ -17,10 +17,7 @@
     </v-col>
   </v-row>
 </template>
-<script setup lang="ts">
+<script setup>
 const title = `Believe in possible`;
-const subtitle = `
-  You will never sell a single product and expand your brand unless you 
-  invent big ideas about your product. It takes a big
-  idea to attract the attention of consumers and get them to buy your product.`;
+const subtitle = `You will never sell a single product and expand your brand unless you invent big ideas about your product. It takes a big idea to attract the attention of consumers and get them to buy your product.`;
 </script>

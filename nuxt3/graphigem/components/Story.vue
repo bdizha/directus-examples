@@ -1,5 +1,5 @@
 <template>
-  <v-card rounded="0" theme="theme" class="p6 dark-pink">
+  <v-card rounded="0" theme="accent" class="p6 dark-pink">
     <v-row align="center" justify="center">
       <v-col lg="6" xl="6" cols="12">
         <v-card theme="theme" rounded="xl" class="p3 dark-pink">

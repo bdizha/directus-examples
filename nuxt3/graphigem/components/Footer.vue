@@ -21,11 +21,11 @@
         </v-col>
         <v-spacer class="hidden-md-and-down"></v-spacer>
         <v-col class="hidden-md-and-down" md="auto" cols="12">
-          <v-row justify="end">
+          <v-row justify="end" no-gutters="true">
             <v-col md="auto" cols="12" v-for="link in links" :key="link">
               <NuxtLink :to="link.route">
                 <v-btn
-                  :color="link.theme"
+                  color="white"
                   :variant="link.variant"
                   class="mx-1"
                   rounded="xl"
