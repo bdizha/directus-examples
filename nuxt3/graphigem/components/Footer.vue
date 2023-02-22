@@ -5,12 +5,14 @@
         <v-col cols="auto">
           <v-row justify="center">
             <v-col lg="auto" cols="12">
-              <Image
-                  width="36"
+              <NuxtLink to="/">
+                <Image
+                  width="102"
                   height="36"
+                  src="/logos/icon-text-016.png"
                   rounded="0px"
-                  src="/logos/footer.png"
                 />
+              </NuxtLink>
             </v-col>
           </v-row>
         </v-col>
@@ -37,41 +39,41 @@
         <v-col lg="12" cols="12" class="text-center">
           <v-row justify="space-between">
             <v-col lg="3" cols="12" class="hidden-sm-and-down text-left">
-                <v-card-text> Delight your customer </v-card-text>
+              <v-card-text> Delight your customer </v-card-text>
             </v-col>
             <v-col cols="12" class="hidden-lg-and-up text-center">
               <v-row justify="end" no-gutters>
                 <v-col md="auto" cols="12" v-for="link in links" :key="link">
                   <NuxtLink :to="link.route">
                     <v-btn
-                        :color="link.theme"
-                        :variant="link.variant"
-                        class="mx-1"
-                        rounded="xl"
-                      >
-                        {{ link.title }}
-                      </v-btn>
+                      :color="link.theme"
+                      :variant="link.variant"
+                      class="mx-1"
+                      rounded="xl"
+                    >
+                      {{ link.title }}
+                    </v-btn>
                   </NuxtLink>
                 </v-col>
               </v-row>
             </v-col>
             <v-col lg="6" cols="12" class="text-center">
-                <v-card-text
-                  >Graphigem Digital &copy; {{ currentYear }}</v-card-text
-                >
+              <v-card-text
+                >Graphigem Digital &copy; {{ currentYear }}</v-card-text
+              >
             </v-col>
             <v-col md="3" cols="12" class="text-right text-center-sm-and-down">
               <NuxtLink to="/privacy">
-                  <v-btn
-                    size="x-large"
-                    color="white"
-                    variant="text"
-                    class="mx-1"
-                    rounded="xl"
-                  >
-                    Privacy
-                  </v-btn>
-                </NuxtLink>
+                <v-btn
+                  size="x-large"
+                  color="white"
+                  variant="text"
+                  class="mx-1"
+                  rounded="xl"
+                >
+                  Privacy Policy
+                </v-btn>
+              </NuxtLink>
             </v-col>
           </v-row>
         </v-col>

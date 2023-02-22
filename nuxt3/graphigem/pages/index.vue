@@ -9,22 +9,16 @@
       </v-card>
     </v-col>
     <v-col cols="12">
+      <Action></Action>
+    </v-col>
+    <v-col cols="12">
       <Approach></Approach>
     </v-col>
     <v-col cols="12">
       <Projects></Projects>
     </v-col>
     <v-col cols="12">
-      <Action></Action>
-    </v-col>
-    <v-col cols="12">
-      <Services></Services>
-    </v-col>
-    <v-col cols="12">
       <Expertise></Expertise>
-    </v-col>
-    <v-col cols="12">
-      <Stance></Stance>
     </v-col>
     <v-col cols="12" id="contact-us">
       <EnquiryForm></EnquiryForm>
@@ -32,7 +26,6 @@
   </v-row>
 </template>
 <script setup>
-import { ref } from "vue";
 
 const { getItems, getItemById } = useDirectusItems();
 

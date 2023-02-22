@@ -25,7 +25,7 @@
               <v-col lg="6" cols="12">
                 <v-row align="center" justify="start">
                   <v-col cols="12">
-                    <v-card theme="theme" rounded="xl" class="dark-green p3">
+                    <v-card theme="green" rounded="xl" class="p3">
                       <Image width="100%" src="/icons/icons-011.png" />
                     </v-card>
                   </v-col>
@@ -81,7 +81,9 @@
             <v-row align="center" justify="start">
               <v-col cols="6">
                 <v-card-title
-                  ><h2 class="text-h2"><span class="text-green">Your</span> schedule</h2>
+                  ><h2 class="text-h2">
+                    <span class="text-green">Your</span> schedule
+                  </h2>
                 </v-card-title>
                 <v-card-text
                   >Graphigem Digital is on the lookout for talented, recent
@@ -104,23 +106,14 @@
                     <v-card
                       theme="accent"
                       rounded="xl"
-                      class="p12 text-center dark-green"
+                      :class="`p12 dark-${take.theme}`"
                     >
-                      <v-row align="center" justify="center">
-                        <v-col lg="6" cols="12">
+                      <v-row align="center" justify="start">
+                        <v-col lg="4" md="6" cols="12">
                           <Image :width="600" :height="600" :src="take.src" />
                         </v-col>
-                        <v-col cols="12">
-                          <v-row align="center" justify="center">
-                            <v-col cols="12">
-                              <v-sheet theme="transparent" min-height="75">
-                                <h4
-                                  class="text-subtitle"
-                                  v-html="take.text"
-                                ></h4>
-                              </v-sheet>
-                            </v-col>
-                          </v-row>
+                        <v-col lg="8" md="6" cols="12">
+                          <h4 class="text-subtitle" v-html="take.text"></h4>
                         </v-col>
                       </v-row>
                     </v-card>
@@ -136,27 +129,33 @@
       <Values></Values>
     </v-col>
     <v-col cols="12">
-      <Gem></Gem>
+      <Action :title="title" :subtitle="subtitle" theme="green"></Action>
     </v-col>
   </v-row>
 </template>
 <script setup>
+const title = `Take your next career step`;
+const subtitle = `We support you with end to end recruitment. We attract, source and
+              assess candidates to meet your requirements, by leveraging our
+              community to tap into those harder to find roles to make sure you
+              have access, first.`;
+
 const steps = [];
 const takes = [
   {
-    src: "/icons/icons-008.png",
-    theme: "green",
-    text: "On emerging technologies and disruptive brands.",
+    src: "/icons/icons-013.png",
+    theme: "yellow",
+    text: "Relentlessly applying emerging technologies and disruptive brands.",
   },
   {
     src: "/icons/icons-011.png",
-    theme: "green",
-    text: "Where development and collaboration is core to our culture.",
+    theme: "pink",
+    text: "Where creativity and collaboration is core to our unconventional values.",
   },
   {
     src: "/icons/icons-015.png",
-    theme: "green",
-    text: "In a high trust, autonomous environment that delivers at pace.",
+    theme: "purple",
+    text: "In an innovative, autonomous space that delivers dinstinct client value.",
   },
 ];
 </script>

@@ -10,7 +10,7 @@
               </h2>
             </v-card-title>
             <v-card-text
-              >If it doesntext it isn't informative and creative enough to the
+              >If it doesn't sell it isn't informative and creative enough to the
               consumer in target. Attend to the minute details of your product
               details and formulate a story that sells.
             </v-card-text>
@@ -51,7 +51,7 @@
                       rounded="xl"
                       :class="`dark-${project.theme}`"
                     >
-                      <Image width="450" height="450" :src="item.src" />
+                      <Image width="600" height="600" :src="item.src" />
                     </v-card>
                   </v-slide-group-item>
                 </v-slide-group>

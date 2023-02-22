@@ -5,22 +5,14 @@
         <v-row align="center" min-height="600" justify="center">
           <v-col cols="12">
             <v-card-title>
-              <h2 class="text-h2">Our expertise</h2>
+              <h2 class="text-h2"><span class="text-purple">Our</span> expertise</h2>
             </v-card-title>
-            <v-card-subtitle
-              >Envisioning a desirable future and accelerating change affords
-              futuristic brands a dynamic branding strategy and competive edge
-              on the marketplace. Telling branding stories and customer
-              journeys, when told correctly, have the possibilities that can
-              connect with culture and create community within a highly dynamic
-              market environment in totally unpredictable ways.
-            </v-card-subtitle>
-            <v-card-text v-if="false"
+            <v-card-text
               >The ones, that do, will thrive. Below is a list of the industries
               that we currently serve with the support of media and veteran
               creatives in our digital arsenal, and it's only in the nascent
               stage of what can be unleashed when a new kind of branding is
-              unveiled to the marketplace.
+              unveiled to the marketplace for future brands.
             </v-card-text>
           </v-col>
         </v-row>
@@ -34,7 +26,12 @@
             v-for="(industry, index) in industries"
             :key="index"
           >
-            <v-card theme="theme" rounded="xl" :class="`p2 dark-${industry.theme}`" min-height="90">
+            <v-card
+              theme="theme"
+              rounded="xl"
+              :class="`p2 dark-${industry.theme}`"
+              min-height="90"
+            >
               <v-row align="start" justify="center">
                 <v-col cols="12">
                   <v-row align="center" justify="center">
@@ -52,9 +49,9 @@
                       <Image :width="300" :src="industry.src"
                     /></v-col>
                     <v-col lg="6" cols="6">
-                        <h4 :class="`text-h4 text-${industry.theme}`">
-                          {{ industry.line1 }}
-                        </h4>
+                      <h4 :class="`text-h4 text-${industry.theme}`">
+                        {{ industry.line1 }}
+                      </h4>
                     </v-col>
                     <v-col cols="3">
                       <Image :width="300" :src="industry.src" />
@@ -67,9 +64,9 @@
                       <Image :width="300" :src="industry.src" />
                     </v-col>
                     <v-col cols="3">
-                        <h4 :class="`text-h4 text-${industry.theme}`">
-                          {{ industry.line2 }}
-                        </h4>
+                      <h4 :class="`text-h4 text-${industry.theme}`">
+                        {{ industry.line2 }}
+                      </h4>
                     </v-col>
                     <v-col cols="3">
                       <Image :width="300" :src="industry.src"
@@ -82,9 +79,9 @@
                       <Image :width="300" :src="industry.src" />
                     </v-col>
                     <v-col lg="6" cols="6">
-                        <h4 :class="`text-h4 text-${industry.theme}`">
-                          {{ industry.line3 }}
-                        </h4>
+                      <h4 :class="`text-h4 text-${industry.theme}`">
+                        {{ industry.line3 }}
+                      </h4>
                     </v-col>
                     <v-col cols="3">
                       <Image :width="300" :src="industry.src"

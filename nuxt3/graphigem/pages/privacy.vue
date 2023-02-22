@@ -34,8 +34,7 @@
           <li>
             <strong>Company</strong> (referred to as either “the Company”, “We”,
             “Us” or “Our” in this Agreement) refers to GRAPHIGEM DIGITAL, 1 Joan
-            End Road, Midrand, Johannesburg, 1684, South Africa. Peter Street,
-            Manchester, England, M2 3NG.
+            End Road, Midrand, Johannesburg, 1684, South Africa.
           </li>
           <li>
             <strong>Cookies</strong> are small files that are placed on Your

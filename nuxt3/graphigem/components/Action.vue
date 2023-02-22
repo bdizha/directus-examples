@@ -1,26 +1,15 @@
 <template>
-  <v-card rounded="0" theme="green" class="p12">
+  <v-card rounded="0" :theme="theme" class="p12 text-center">
     <v-row justify="center">
       <v-col lg="6" cols="12">
-        <v-row>
+        <v-row justify="center">
           <v-col lg="12" md="12" cols="12">
-            <h4 class="text-h4">
-              Take your brand experience to the next level.
-            </h4>
+            <h4 class="text-h4" v-html="title"></h4>
           </v-col>
           <v-col lg="12" cols="12">
-            <v-card-text
-              >Brands have to decide what image they want for their brand. Image
-              means personality. Products, like people, have personalities, and
-              they can make or break them in the marketplace. "You will never
-              win fame and fortune unless you invent big ideas. It takes a big
-              idea to attract the attention of consumers and get them to buy
-              your product. Unless your advertising contains a big idea, it will
-              pass like a ship in the night" -
-              <b>David Ogilvy</b>
-            </v-card-text>
+            <v-card-subtitle v-html="subtitle"></v-card-subtitle>
           </v-col>
-          <v-col lg="3" cols="12">
+          <v-col lg="3" md="4" cols="12">
             <NuxtLink to="/#contact-us">
               <v-btn
                 block
@@ -38,3 +27,13 @@
     </v-row>
   </v-card>
 </template>
+<script setup lang="ts">
+const props = defineProps({
+  theme: { type: [String], default: "green" },
+  title: { type: [String], default: "Delight your customer" },
+  subtitle: {
+    type: [String],
+    default: `If you were to ask us, what's it like to launch a successful campaign? Our answer is simple: It's always a delight working with upcoming brands making their dreams a reality.`,
+  },
+});
+</script>

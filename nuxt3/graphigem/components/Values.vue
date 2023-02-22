@@ -3,7 +3,7 @@
     <v-row align="center" justify="center">
       <v-col lg="6" cols="12" class="text-center">
         <v-card-subtitle>
-          <h2 class="text-h2"><span class="text-yellow">Our</span> valussses</h2>
+          <h2 class="text-h2"><span class="text-yellow">Our</span> values</h2>
         </v-card-subtitle>
       </v-col>
       <v-col lg="9" md="6" sm="12" cols="12">

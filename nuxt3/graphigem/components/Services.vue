@@ -10,18 +10,12 @@
               </h2>
             </v-card-title>
             <v-card-subtitle
-              >Get to know your customers enough and offer them tailored products that
-              resonate with their distinct lifestyles and expectations. Switch
-              on the lights and become the pilot of your brand's rocket flight
-              to the skies. Those that can't tell their story will fail.
+              >Get to know your customers enough and offer them tailored
+              products that resonate with their distinct lifestyles and
+              expectations. Switch on the lights and become the pilot of your
+              brand's rocket flight to the skies. Those that can't tell their
+              story will fail.
             </v-card-subtitle>
-            <v-card-text v-if="false">
-              Said differently, we enable you to uniquely delight your customers
-              in both systematic and more strategic ways with better returns
-              alongside your auto-scale branding experts at Graphigem Digital.
-              We've assembled the world's greatest creative talent to help you
-              connect your story and contextual customer demands, seamlessly.
-            </v-card-text>
           </v-col>
         </v-row>
       </v-col>
@@ -36,12 +30,13 @@
           >
             <v-card
               theme="theme"
-              rounded="xl" :class="`p3 dark-${service.theme}`"
+              rounded="xl"
+              :class="`p3 dark-${service.theme}`"
               min-height="450"
             >
               <v-row align="start" justify="start">
-                <v-col lg="6" cols="6">
-                    <Image :width="300" :height="300" :src="service.src" />
+                <v-col lg="4" cols="12">
+                  <Image :width="600" :height="600" :src="service.src" />
                 </v-col>
                 <v-col cols="12">
                   <v-card-title v-html="service.title"></v-card-title>
@@ -75,7 +70,7 @@
 const services = [
   {
     src: "/gems/full-001.png",
-    theme: "yellow",
+    theme: "purple",
     title: "<span class='text-purple'>Original</span> Branding",
     subtitle:
       "<span class='text-purple'>Build</span> and launch bold campaign story lines.",
@@ -84,7 +79,7 @@ const services = [
   },
   {
     src: "/gems/full-004.png",
-    theme: "green",
+    theme: "yellow",
     title: "<span class='text-yellow'>On-demand</span> Branding",
     subtitle:
       "<span class='text-yellow'>Automate</span> your brand's loyal audience and grow.",
@@ -93,7 +88,7 @@ const services = [
   },
   {
     src: "/gems/full-003.png",
-    theme: "pink",
+    theme: "purple",
     title: "<span class='text-purple'>Virtual</span> Branding",
     subtitle:
       "<span class='text-purple'>Adjust</span> to creative input and connect with audience.",
@@ -102,7 +97,7 @@ const services = [
   },
   {
     src: "/gems/full-002.png",
-    theme: "purple",
+    theme: "pink",
     title: "<span class='text-pink'>Agent</span> Branding",
     subtitle:
       "<span class='text-pink'>Adopt</span> and train an AI powered campaign agent model.",

@@ -7,13 +7,17 @@
             <v-card theme="accent" rounded="xl" :class="`p3 dark-pink`">
               <v-card-title
                 ><h2 class="text-h2">
-                  <span class="text-pink">Our</span> approach
+                  <span class="text-pink">Uniquely</span> crafted
                 </h2>
               </v-card-title>
               <v-card-subtitle
-                >If you were to ask us, what's it like to launch a successful
-                campaign? Our answer is simple: It's always a delight working
-                with upcoming brands making their dreams a reality.
+                >We envision a fully immersive and a brand-centric future and
+                are catalyzing change for futuristic brands through dynamic and
+                yet consumer tailored branding strategies to earn them a
+                competive edge on the marketplace. Narrating branding story
+                frames, when acted out successfully, have the potential to
+                connect consumers to their favourite products in totally
+                unpredictable ways.
               </v-card-subtitle>
             </v-card>
           </v-col>

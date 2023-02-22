@@ -1,15 +1,19 @@
 <template>
   <v-card rounded="0" theme="theme" class="p12 dark-green">
     <v-row align="center" justify="center">
-      <v-col lg="9" cols="12" class="text-center">
+      <v-col lg="6" md="9" cols="12" class="text-center">
         <v-card-subtitle>
           <h2 class="text-h2">
-            <span class="text-purple">Making,</span>&nbsp;
-            <span class="text-pink">Sense.</span>&nbsp;
-            <span class="text-green">Making,</span>&nbsp;
+            <span class="text-purple">Making</span>&nbsp;
+            <span class="text-pink">Sense,</span>&nbsp;
+            <span class="text-green">Making</span>&nbsp;
             <span class="text-yellow">Value.</span>
           </h2>
         </v-card-subtitle>
+        <v-card-text
+          >"Unless your advertising contains a big idea, it will pass like a
+          ship in the night" - <b>David Ogilvy</b>
+        </v-card-text>
       </v-col>
       <v-col cols="12">
         <v-row align="center" justify="center">
@@ -21,7 +25,8 @@
                     <v-card
                       theme="accent"
                       min-height="240px"
-                      rounded="xl" :class="`p2 dark-${value.theme}`"
+                      rounded="xl"
+                      :class="`p2 dark-${value.theme}`"
                     >
                       <v-card-title :class="`text-${value.theme}`">
                         {{ value.title }}
@@ -43,7 +48,12 @@
             </v-row>
           </v-col>
           <v-col lg="4" cols="12">
-            <v-card theme="accent" rounded="xl" :class="`p2 dark-green`" min-height="120">
+            <v-card
+              theme="accent"
+              rounded="xl"
+              :class="`p2 dark-green`"
+              min-height="120"
+            >
               <Image height="600" src="/icons/icons-004.png" />
             </v-card>
           </v-col>
@@ -58,6 +68,7 @@
                   <v-col cols="6">
                     <v-card
                       theme="accent"
+                      min-height="240px"
                       :class="`p3 dark-${value.theme}`"
                     >
                       <Image :width="192" :height="192" :src="value.src" />
@@ -67,7 +78,8 @@
                     <v-card
                       theme="accent"
                       min-height="240px"
-                      rounded="xl" :class="`p2 dark-${value.theme}`"
+                      rounded="xl"
+                      :class="`p2 dark-${value.theme}`"
                     >
                       <v-card-title :class="`text-${value.theme}`">
                         {{ value.title }}
