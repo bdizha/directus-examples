@@ -70,10 +70,10 @@
 const services = [
   {
     src: "/gems/full-001.png",
-    theme: "purple",
-    title: "<span class='text-purple'>Original</span> Branding",
+    theme: "green",
+    title: "<span class='text-green'>Original</span> Branding",
     subtitle:
-      "<span class='text-purple'>Build</span> and launch bold campaign story lines.",
+      "<span class='text-green'>Build</span> and launch bold campaign story lines.",
     text: "Great companies have great dreams, and it's those great stories - when narrated creatively - that connect with culture and create demand.",
     action: "Get started",
   },
@@ -83,7 +83,7 @@ const services = [
     title: "<span class='text-yellow'>On-demand</span> Branding",
     subtitle:
       "<span class='text-yellow'>Automate</span> your brand's loyal audience and grow.",
-    text: "We understand the challenges that brands come across allowing us to provide your brabd with advice based on our first-hand campaign experiences. ",
+    text: "We understand the challenges that brands come across allowing us to provide your brand with advice based on our first-hand campaign experiences. ",
     action: "Get started",
   },
   {
@@ -100,8 +100,8 @@ const services = [
     theme: "pink",
     title: "<span class='text-pink'>Agent</span> Branding",
     subtitle:
-      "<span class='text-pink'>Adopt</span> and train an AI powered campaign agent model.",
-    text: "Welcome a new world of automated blochain solutions. Imagine the special role that a branded virtual campaign can achieve for your brand's market share.",
+      "<span class='text-pink'>Adopt</span> and train AI powered campaign agent models.",
+    text: "Welcome a new world of imagination. Imagine the special role that a branded virtual campaign can achieve for your brand's market share and beyond.",
     action: "Get started",
   },
 ];

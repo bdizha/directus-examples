@@ -86,7 +86,7 @@ const steps = [
   {
     title: "Repeat <span class='text-white'> it</span>",
     subtitle:
-      "<span class='text-purple'>Catalyze</span> your branding efforts alongside our branding experts at Graphige Digital. Take control of the outcome of your marketing investment today.",
+      "<span class='text-purple'>Catalyze</span> your branding efforts alongside our branding experts at Graphigem Digital. Take control of the outcome of your marketing investment today.",
     text: "",
     src: "/banners/GDBanner_19.png",
     theme: "purple",

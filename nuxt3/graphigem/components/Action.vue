@@ -4,7 +4,7 @@
       <v-col lg="6" cols="12">
         <v-row justify="center">
           <v-col lg="12" md="12" cols="12">
-            <h4 class="text-h4" v-html="title"></h4>
+            <h2 class="text-h2" v-html="title"></h2>
           </v-col>
           <v-col lg="12" cols="12">
             <v-card-subtitle v-html="subtitle"></v-card-subtitle>

@@ -12,7 +12,7 @@
             <v-card-text
               >If it doesn't sell it isn't informative and creative enough to the
               consumer in target. Attend to the minute details of your product
-              details and formulate a story that sells.
+              and formulate a story that sells to your customers to stay competitively positioned.
             </v-card-text>
           </v-col>
           <v-col lg="12" cols="12">
